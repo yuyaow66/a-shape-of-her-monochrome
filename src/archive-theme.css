@@ -1,0 +1,126 @@
+@import url('./print-surface.css?v=grain-2');
+:root{
+ --highlight:#fff;
+ --ink:#141414;
+ --plum:#000;
+ --interview-tab-ink:#141414;
+}
+body:has(.figma-stage #mom){background:var(--archive-charcoal)!important;color:#fff}
+body:has(#mom) :is(.figma-stage,.figma-screen,.figma-screen>div){background:var(--archive-charcoal);color:#fff}
+body:has(#mom) .figma-screen>div>img[src$=".svg"]{filter:grayscale(1) brightness(0)}
+body:has(#mom) .figma-screen [data-name="Vector"] img{filter:grayscale(1)}
+.site-header{background-color:var(--archive-carbon)!important;background-image:var(--archive-screen),var(--archive-grain);border-bottom-color:var(--archive-graphite);color:#fff}
+.site-header .site-brand{color:#fff}
+.site-header .site-brand:is(:hover,:focus-visible){color:#aaa}
+.site-header .topnav>.aligned-topbar-link,.site-header .section-dropdown{color:#b8b8b4}
+.site-header .aligned-topbar-link,
+.site-header .aligned-topbar-link p,
+.site-header .section-dropdown-menu>:is(a,button),
+.site-header .section-dropdown-menu :is(div,p){font-weight:700!important}
+.site-header .aligned-topbar-link:is(:hover,:focus-visible),
+.site-header .aligned-topbar-link[aria-current="page"],
+.site-header .section-dropdown:has(>a[aria-current="page"]),
+.site-header .section-dropdown.is-open,
+.site-header .section-dropdown-toggle:is(:hover,:focus-visible){color:#fff}
+.site-header .section-dropdown .section-dropdown-menu{background:#fff;color:#141414}
+.site-header .section-dropdown-menu>:is(a,button),
+.site-header .section-dropdown-menu :is(div,p){background:transparent;color:#141414!important}
+.site-header .section-dropdown-menu>:is(a,button):is(:hover,:focus-visible,[aria-current="page"]){background:#141414;color:#fff!important}
+.site-header .section-dropdown-menu>:is(a,button):is(:hover,:focus-visible,[aria-current="page"]) :is(div,p){color:#fff!important}
+body:has(#mom) .figma-screen :is([data-name$="scrollable interview"],[data-name="Aunt 2 — scrollable photographs"],[data-name="Photos + interview"]){background:var(--archive-charcoal)!important}
+body:has(#mom) .figma-screen :is([data-name="Interview — editable questions and answers"],[data-name="Summary — content"]){background:var(--archive-chalk)!important;color:#141414!important}
+body:has(#mom) .figma-screen [data-name="Summary — content"] :is(p,div){color:#141414!important}
+body:has(#mom) .figma-screen [data-name="Family photographs — original proportions"]{background:var(--archive-carbon)!important;scrollbar-color:#888 #000}
+body:has(#mom) .figma-screen [data-name="Family photographs — original proportions"]>div{background:var(--archive-carbon)!important}
+body:has(#mom) .figma-screen [data-name="Family photographs — original proportions"] img{filter:grayscale(1) contrast(1.22) brightness(.94)}
+body:has(#mom) :is(#mom,#grandma,#aunt1,#aunt2,#fengqin,#film) [data-name="Family photographs — original proportions"]>div:not(.book-cover):has(>img)::after{content:"";position:absolute;inset:0;pointer-events:none;background-image:var(--archive-screen),var(--archive-grain);background-size:3px 3px,180px 180px;mix-blend-mode:multiply;opacity:.85}
+body:has(#mom) .figma-screen .interview-photo-placeholder{background-color:var(--archive-slate)!important;background-image:var(--archive-grain);color:#e6e6e6!important}
+body:has(#mom) .figma-screen .interview-photo-placeholder p{color:#e6e6e6!important}
+body:has(#mom) .figma-screen :is(.interview-date,.interview-title,.interview-pull-quote){color:#141414!important}
+body:has(#mom) .figma-screen [data-name^="Question"],
+body:has(#mom) .figma-screen [data-name^="Question"]>:first-child,
+body:has(#mom) .figma-screen [data-name^="Question"]>:not(:first-child),
+body:has(#mom) .figma-screen [data-name^="Question"]>:not(:first-child) p{color:#141414!important}
+body:has(#mom) .figma-screen [data-name^="Question"]>.passage-open{background:#f2f2ee!important;color:#383838!important}
+body:has(#mom) .figma-screen [data-name^="Question"]>.passage-open:is(:hover,:focus-visible){background:#141414!important;color:#fff!important}
+body:has(#mom) #film [data-name="Films — scrollable studies"],
+body:has(#mom) #film [data-name="Interview — editable questions and answers"]>[data-name^="Question"],
+body:has(#mom) #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-cover{background:#f2f2ee!important}
+body:has(#mom) #film [data-name="Family photographs — original proportions"]>div{background:#fff!important;border-color:#d4d4d4!important}
+body:has(#mom) #film [data-name^="Question"]{border-color:#d4d4d4!important}
+body:has(#mom) #film [data-name^="Question"]>:nth-child(2)>p:first-child,
+body:has(#mom) #film .film-meta-chip{background:#e5e5e5!important;color:#141414!important}
+body:has(#mom) #film .book-quote span{background:#e5e5e5;color:#141414}
+body:has(#mom) #film .book-citation,#film .book-cover-credit{color:#666!important}
+body:has(#mom) #film a.book-source{background:#e5e5e5;color:#141414!important}
+body:has(#mom) #film a.book-source:is(:hover,:focus-visible){background:#141414;color:#fff!important}
+body:has(#mom) #film .movie-link-coming-soon{background:transparent;color:#777!important}
+body:has(#mom) #film .movie-link-coming-soon:is(:hover,:focus-visible){background:#e5e5e5;color:#141414!important}
+body:has(#mom) #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-title-plate{background:#000!important;color:#fff!important}
+body:has(#mom) #film.book-studies-ready :is(.book-plate-author,.book-plate-year,.book-plate-title){color:#fff}
+body:has(#mom) #film.book-studies-ready [data-name="Interview — editable questions and answers"]>.film-reality{background-color:var(--archive-carbon)!important;background-image:var(--archive-grain);color:#e6e6e6!important}
+body:has(#mom) #film.book-studies-ready .film-reality :is(.reality-title>span,.reality-title>strong,.reality-note-title){color:#fff}
+body:has(#mom) #film.book-studies-ready .film-reality :is(p.reality-intro,.reality-note p){color:#d6d6d6!important}
+body:has(#mom) #film.book-studies-ready .film-reality .reality-directory{scrollbar-color:#888 #000}
+body:has(#mom) #film.book-studies-ready .film-reality .reality-directory a{color:#b8b8b4}
+body:has(#mom) #film.book-studies-ready .film-reality .reality-note-number{color:#888}
+body:has(#mom) #film.book-studies-ready .film-reality .reality-directory a:is(:hover,:focus-visible,[aria-current="location"]),
+body:has(#mom) #film.book-studies-ready .film-reality .reality-directory a[aria-current="location"] .reality-note-number{color:#fff}
+#research [data-name="Research — scrollable index"]{background:#f2f2ee!important;color:#141414!important}
+#research :is(.research-lead,.research-entry>p:first-child,.research-entry>p:nth-child(3)){color:#141414!important}
+#research .research-lead-highlight{background:#dedede;color:#141414}
+#research .research-lead-keyword{background:#141414;color:#fff}
+#research .research-number-year p{background:#e5e5e5!important;color:#141414!important}
+#research .research-number-year p:last-child{background:#141414!important;color:#fff!important}
+#research .research-column-heading{background:#141414;color:#fff!important}
+#research .research-row{border-color:#d4d4d4}
+#research .research-source{background:#f2f2f2!important;color:#141414!important;border-color:#b8b8b4!important}
+#research .research-source p{color:#141414!important}
+#research .research-source:is(:hover,:focus-visible){background:#141414!important;color:#fff!important;border-color:#141414!important}
+#research .research-source:is(:hover,:focus-visible) p{color:#fff!important}
+#research .research-image-placeholder{background:linear-gradient(135deg,#e5e5e5 0 48%,#bbb 48% 52%,#383838 52% 100%);border-color:#aaa}
+#research .research-image-placeholder::before{border-color:#888}
+#research .research-image-placeholder span{background:#000;color:#fff}
+#words .words-gallery{background-color:var(--archive-charcoal);background-image:var(--archive-screen),var(--archive-grain);scrollbar-color:#888 #000}
+#words-filter-panel,#words [data-name="Collected Words — Left panel"]{background:var(--archive-paper)!important}
+#words [data-name="Collected Words — Left panel"]>img[src$=".svg"]{filter:grayscale(1) brightness(1.6)}
+#words :is([data-node-id="40:72"],[data-node-id="40:77"],[data-node-id="47:264"],[data-node-id="40:88"],[data-node-id="40:98"]){background:#e5e5e5!important;color:#141414!important}
+#words [data-node-id="40:98"] p{background:transparent!important;color:#141414!important}
+#words .word-filter{background:var(--archive-ash)!important;color:#141414!important}
+body:has(#mom) #words .word-filter :is(div,p){color:inherit!important}
+#words .word-filter:not([aria-pressed="true"]):is(:hover,:focus-visible){background:#c8c8c8!important;color:#000!important}
+#words .word-filter[aria-pressed="true"]{background:#141414!important;color:#fff!important}
+#words :is(.words-filter-open,.words-filter-close){background:#141414!important;color:#fff!important}
+#words :is(.words-filter-open,.words-filter-close):is(:hover,:focus-visible){background:#444!important;color:#fff!important}
+#words .word-paper{border-color:var(--archive-graphite)}
+#words .word-open>img,.word-viewer-paper>img{filter:grayscale(1) brightness(.82) contrast(1.55)}
+#words .word-filter,
+#words .word-filter :is(div,p),
+#words :is(.word-life-stage,.word-pressure-tag,.word-stage,.word-number),
+#words :is(.words-filter-open,.words-filter-close),
+#words [data-node-id="40:98"],
+#words [data-node-id="40:98"] p,
+.word-viewer-actions button{font-weight:700!important}
+#words :is(.word-stage,.word-number){color:#fff}
+#words .word-life-stage{color:#b8b8b4}
+#words .word-pressure-tag,
+#words .word-pressure-tag.word-theme-tag{background:var(--archive-ash);color:var(--archive-ink)}
+.word-viewer{color:#fff}
+.word-viewer::backdrop{background:rgba(0,0,0,.86)!important}
+.word-viewer .word-viewer-actions :is(.word-viewer-flip,.word-viewer-back){background:#fff!important;color:#141414!important}
+.word-viewer .word-viewer-actions button:is(:hover,:focus-visible){background:#ccc!important;color:#000!important}
+.passage-reader{background:#f2f2ee!important;color:#141414!important;box-shadow:0 18px 44px rgba(0,0,0,.3)}
+.passage-reader::backdrop{background:rgba(0,0,0,.5)}
+.passage-reader .passage-toolbar{background:#e5e5e5!important;color:#141414;box-shadow:0 8px 16px rgba(0,0,0,.06)}
+.passage-reader .passage-toolbar nav button,
+.passage-reader .passage-toolbar nav button[aria-label="My POV"]{color:#141414!important}
+.passage-reader .passage-toolbar nav button:is(:hover,:focus-visible,[aria-pressed="true"]){background:#141414;color:#fff!important}
+.passage-reader .passage-back{background:#141414!important;color:#fff!important}
+.passage-reader .passage-back:is(:hover,:focus-visible){background:#444!important;color:#fff!important}
+.passage-reader :is(.passage-text h2,.passage-row p){color:#141414!important}
+.passage-reader::-webkit-scrollbar-thumb{background:#444;border-color:#fff}
+.passage-reader::-webkit-scrollbar-track{background:#e5e5e5}
+.site-header :focus-visible,.figma-stage :focus-visible,.word-viewer :focus-visible,.passage-reader :focus-visible{outline-color:#999!important}
+body:has(#mom) #film [data-name^="Question"]>a:is(.book-source,.movie-source):is(:hover,:focus-visible){background:#141414!important;color:#fff!important}
+body:has(#mom) #film.book-studies-ready .film-reality :focus-visible{outline-color:#fff}
+::selection{background:#aaa;color:#000}

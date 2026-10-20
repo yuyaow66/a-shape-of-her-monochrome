@@ -1,0 +1,22 @@
+.figma-screen .passage-source{overflow:visible!important}
+.figma-screen .passage-open{position:absolute;right:-27px;top:2px;width:24px;height:28px;background:none;color:#63435f;font:400 25px/28px var(--font-text)}
+.passage-open:hover,.passage-open:focus-visible{color:#78efb0!important}
+.passage-reader{font-family:var(--font-text);border:0;color:#ead7e3;background:#35253f}
+.passage-reader{position:fixed;inset:0;margin:auto;width:min(1040px,calc(100vw - 40px));max-width:none;max-height:88dvh;padding:0 48px 48px;overflow:auto}
+.passage-reader::backdrop{background:rgba(53,37,63,.94)}
+.passage-photo{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.09;pointer-events:none}
+.passage-toolbar{position:sticky;top:0;z-index:2;background:#35253f;display:flex;align-items:center;justify-content:space-between;gap:24px;margin:0 -48px;padding:24px 48px;border-bottom:0}
+.passage-toolbar nav{display:flex;flex-wrap:wrap;gap:24px}
+.passage-reader button{border:0;background:none;padding:0;color:#78efb0;font:400 16px/24px var(--font-text);cursor:pointer}
+.passage-toolbar>button{font-size:14px;line-height:20px}
+.passage-toolbar button:focus-visible{outline:none;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.passage-toolbar [aria-pressed="true"]{color:#e5ef70}
+.passage-text{position:relative;max-width:800px;margin:40px auto 0}
+.passage-text h2{margin:0 0 40px;font:700 28px/1.4 var(--font-text)}
+.passage-row{position:relative;margin-top:28px}
+.passage-row p{font:400 clamp(22px,2.2vw,30px)/1.5 var(--font-text)}
+.passage-reader button:hover{color:#e5ef70}
+@media(max-width:650px){.passage-reader{padding:0 20px 28px}.passage-toolbar{margin:0 -20px;padding:20px}.passage-toolbar nav{gap:12px}.passage-text h2{font-size:22px}}
+
+
+.passage-reader{border-radius:12px;clip-path:inset(0 round 12px)}

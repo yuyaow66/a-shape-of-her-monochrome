@@ -1,0 +1,314 @@
+:root{
+ --font-text:"Monospace",ui-monospace,monospace;
+ --font-body:"IBM Plex Mono","Monospace",ui-monospace,monospace;
+ --body-size:18px;
+ --body-leading:1.65;
+ --body-measure:65ch;
+ --font-nav:"Monospace",ui-monospace,monospace;
+ --font-display:var(--font-text);
+ --font-meta:var(--font-text);
+ --highlight:#e5ef70;
+ --ink:#171515;
+ --plum:#35253f;
+}
+body{font-family:var(--font-text)}
+
+.figma-home{--font-text:var(--font-nav);--font-display:var(--font-nav);--font-meta:var(--font-nav);font-family:var(--font-nav)}
+.figma-home .home-title{font-weight:700!important;letter-spacing:-.025em!important}
+@media(min-width:1101px){.figma-home .home-title{font-size:176px!important}}
+
+.figma-screen .brand-link p,
+.figma-home [data-node-id="1:390"],
+.figma-home [data-node-id="1:417"]{font-family:var(--font-display)!important}
+
+/* Inner pages share one right-aligned top nav. Research's right margin matches the wordmark's left margin. */
+.figma-screen .topnav{position:absolute;z-index:3;top:14px;right:14px;left:auto;display:flex;align-items:center;gap:22px;height:24px}
+.figma-screen .topnav .aligned-topbar-link{position:static!important;inset:auto!important;width:auto!important;height:auto!important;display:block!important;padding:4px 6px;white-space:nowrap}
+.aligned-topbar-link,
+.aligned-topbar-link p{font:400 14px/1 var(--font-nav)!important;letter-spacing:.04em;text-transform:uppercase}
+.aligned-topbar-link:hover,
+.aligned-topbar-link:focus-visible{background:#78efb0}
+.aligned-topbar-link:hover p,
+.aligned-topbar-link:focus-visible p{color:#171515!important;text-decoration:none}
+.aligned-topbar-link:active{opacity:.5}
+.figma-home [data-node-id="146:61"]{left:auto!important;right:14px!important;top:16px!important;bottom:auto!important;width:max-content!important;height:auto!important;overflow:visible!important}
+.figma-home [data-node-id="146:61"]>div{position:static!important;inset:auto!important;width:max-content!important;height:auto!important}
+.figma-home [data-node-id="146:61"] p{position:static!important;white-space:nowrap!important}
+
+.figma-home [data-node-id="1:402"],
+.figma-home [data-node-id="146:61"] p,
+.figma-home [data-node-id="178:76"]{font:400 14px/1.15 var(--font-meta)!important;letter-spacing:.02em}
+.figma-home [data-node-id="1:422"]{left:auto!important;right:14px!important;top:auto!important;bottom:22px!important;width:max-content!important;height:auto!important;padding:1px 8px;background:#78efb0!important;color:#171515!important;font:400 20px/1 var(--font-text)!important}
+.figma-home a[href^="original-layout.html"] p{font-family:var(--font-nav)!important;font-weight:400!important;font-size:28px!important;line-height:1.15!important;letter-spacing:-.02em}
+.figma-home a[href^="original-layout.html"]:hover p,
+.figma-home a[href^="original-layout.html"]:focus-visible p{text-decoration:underline;text-underline-offset:.12em;text-decoration-thickness:1px}
+.figma-home a[href^="original-layout.html"]:active{opacity:.5}
+.figma-home [data-node-id="146:61"]:hover p,
+.figma-home [data-node-id="146:61"]:focus-visible p{text-decoration:underline;text-underline-offset:3px}
+
+/* Home menus keep the pink panel. Items underline instead of filling the row. */
+.home-film-menu{padding:14px 16px!important;gap:8px!important;box-sizing:border-box!important}
+.home-film-menu>a{width:auto!important;align-self:stretch!important;box-sizing:border-box!important;min-height:0!important;padding:7px 12px!important;font:400 16px/1.35 var(--font-nav)!important;color:#fff!important;background:var(--plum)!important;text-decoration:none}
+.home-film-menu>a:hover,
+.home-film-menu>a:focus-visible{background:var(--highlight)!important;color:var(--plum)!important;text-decoration:none!important;outline:none}
+.home-film-menu>a:active{opacity:.5}
+
+[data-name="Close About"] p{font:400 14px/1 var(--font-meta)!important;background:var(--highlight);color:var(--plum)!important;padding:3px 5px 4px}
+[data-name="Close About"]:hover p,
+[data-name="Close About"]:focus-visible p{background:var(--plum);color:var(--highlight)!important}
+[data-name="Close About"]:active{opacity:.5}
+.figma-home .home-about-close:focus-visible{outline:none}
+
+#about [data-node-id="8:435"],
+#about [data-node-id="8:435"] p{font:400 var(--body-size)/var(--body-leading) var(--font-body)!important;max-width:var(--body-measure);letter-spacing:0!important;text-align:left;text-indent:0!important;text-wrap:pretty}
+#about [data-node-id="8:435"] p{margin:0 0 1em!important}
+#about [data-node-id="8:435"] p:last-child{margin-bottom:0!important}
+
+/* Interview opening: mono date, regular title, large regular quote. */
+.interview-date{font:400 14px/1.15 var(--font-meta)!important;letter-spacing:0!important}
+.interview-title{font:700 30px/1.25 var(--font-text)!important}
+.interview-pull-quote{font:400 44px/1.35 var(--font-text)!important;letter-spacing:0!important;text-wrap:balance;color:#171515!important}
+.interview-pull-quote span{background:var(--highlight);color:inherit;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:0}
+.interview-intro{min-height:100%;padding:8px 0 40px}
+#aunt2 [data-name="Aunt 2 — scrollable interview"]{overflow:hidden!important}
+#aunt2 [data-name="Aunt 2 — scrollable interview"]>[data-name="Interview — editable questions and answers"]{height:100%!important;min-height:0!important;overflow-y:auto!important;overflow-x:hidden!important}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview — editable questions and answers"]{padding:48px 56px 72px!important;gap:40px!important}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name^="Question"]{gap:14px!important}
+
+/* Questions and answers share one size. Weight carries the hierarchy. */
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>:first-child,
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>:first-child p{font:700 24px/1.25 var(--font-text)!important;text-wrap:pretty}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>:not(:first-child),
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>:not(:first-child) p{font:400 var(--body-size)/var(--body-leading) var(--font-body)!important;max-width:var(--body-measure)!important;letter-spacing:0!important;text-align:left;text-wrap:pretty}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>:not(:first-child) p+p{margin-top:.8em!important}
+
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button) p{font:400 14px/1.15 var(--font-nav)!important}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button)[aria-current="page"] p{font-weight:700!important}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name="Interview navigation — left tabs"]>:is(a,button):active{opacity:.5}
+.figma-screen [data-name="Interview navigation — left tabs"]>:is(a,button) p{font-family:var(--font-nav)!important}
+
+/* Film caption and pending link use the mono highlight chip, and invert on hover. */
+#film [data-name^="Question"]>:nth-child(2)>p.film-meta{display:flex!important;flex-wrap:wrap;gap:6px;width:auto!important;max-width:100%;margin:0 0 12px!important;padding:0!important;background:transparent!important;color:var(--plum)!important}
+#film .film-meta-chip{display:inline-block;padding:3px 6px;background:var(--highlight);color:var(--plum)!important;font:400 13px/1.3 var(--font-meta)!important}
+#film [data-name^="Question"]>p.movie-link-coming-soon{display:inline-block;margin-top:8px;padding:2px 5px;background:#c8c3c8;color:#35253f!important;font:400 12px/1.4 var(--font-meta)!important;text-decoration:none!important;opacity:1;transition:background-color 140ms ease,color 140ms ease,opacity 140ms ease}
+#film [data-name^="Question"]>p.movie-link-coming-soon:hover,
+#film [data-name^="Question"]>p.movie-link-coming-soon:focus-visible{background:var(--plum);color:var(--highlight)!important;opacity:1}
+#film [data-name^="Question"]>p.movie-link-coming-soon:active{opacity:.5}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>.passage-open{position:absolute;top:-3px;left:-44px;right:auto;display:flex;align-items:center;justify-content:center;width:36px!important;min-width:36px!important;max-width:36px!important;height:36px!important;flex:none!important;padding:6px!important;font:400 20px/1 var(--font-meta)!important;color:var(--plum)!important;background:var(--highlight)!important}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>.passage-open:is(:hover,:focus-visible){background:var(--plum)!important;color:#78efb0!important}
+.passage-open:active{opacity:.5}
+
+/* Research index: 24px titles, 20px blurbs, mono facts. Hover fills with the site yellow. */
+#research .research-lead{width:calc(66.666% - 38px)!important;font-family:var(--font-text)!important;font-weight:700!important;font-size:42px!important;line-height:1.35!important;letter-spacing:0!important;text-wrap:pretty;background:transparent!important;color:#171515!important}
+.research-column-heading{font:400 14px/1.3 var(--font-meta)!important;letter-spacing:.04em;background:var(--plum)!important;color:#f0dbe8!important}
+.research-image-placeholder{display:none!important}
+.research-entry>p:first-child{font:700 24px/1.25 var(--font-text)!important}
+.research-entry>p:nth-child(3){margin-top:14px!important;font:400 var(--body-size)/var(--body-leading) var(--font-body)!important;max-width:var(--body-measure)!important;letter-spacing:0!important;text-align:left;text-wrap:pretty}
+.research-number-year p{font:400 14px/1.25 var(--font-meta)!important}
+#research .research-number-year p:last-child{background:var(--highlight)!important;color:var(--plum)!important}
+#research [data-node-id="221:60"],
+#research .research-entry{left:292px!important;width:620px!important}
+.research-source p{font:400 14px/1.45 var(--font-meta)!important}
+#research [data-name="Research — scrollable index"]{background:#ead7e3!important;color:#171515!important}
+#research .research-lead,
+#research .research-entry>p:first-child,
+#research .research-entry>p:nth-child(3){color:#171515!important}
+#research .research-source{background:#fff!important;color:#171515!important;border-color:#171515!important}
+#research .research-source p{color:#171515!important}
+#research .research-source:hover,
+#research .research-source:focus-visible{background:var(--highlight)!important;border-color:var(--highlight)!important;color:var(--plum)!important}
+#research .research-source:hover p,
+#research .research-source:focus-visible p{color:var(--plum)!important}
+#research .research-source:active{opacity:.5}
+
+/* Collected words: mono metadata, same chip language. */
+.word-metadata{font:400 14px/1.35 var(--font-meta)!important}
+.word-number{font:700 14px/1.2 var(--font-meta)!important}
+.word-life-stage{font:400 13px/1.35 var(--font-meta)!important;letter-spacing:.04em;text-transform:uppercase}
+.word-pressure{display:flex!important;flex-wrap:wrap;justify-content:flex-end;width:100%}
+.word-pressure-tag{font:400 12px/1.3 var(--font-meta)!important}
+.word-filter,.word-filter p,
+.words-filter-open,.words-filter-close{font:400 14px/1.2 var(--font-meta)!important;letter-spacing:0}
+.figma-screen .words-filter-open{padding:3px 6px 4px!important;background:var(--highlight)!important;color:var(--plum)!important}
+.words-filter-open:hover,.words-filter-open:focus-visible{background:var(--plum)!important;color:var(--highlight)!important}
+#words-filter-panel{transition:transform 460ms cubic-bezier(.22,.61,.36,1)}
+#words.filters-closed #words-filter-panel{transform:translateX(-105%);pointer-events:none}
+.words-gallery{transition:left 460ms cubic-bezier(.22,.61,.36,1),width 460ms cubic-bezier(.22,.61,.36,1)}
+#words [data-node-id="40:72"],
+#words [data-node-id="40:77"],
+#words [data-node-id="47:264"],
+#words [data-node-id="40:88"],
+#words [data-node-id="40:98"],
+#words [data-node-id="40:98"] p{font:400 13px/1.35 var(--font-meta)!important;letter-spacing:.04em;width:max-content!important;height:auto!important;padding:2px 5px 3px}
+#words [data-node-id="40:72"]{top:22px!important;right:auto!important;bottom:auto!important;background:var(--highlight)!important;color:var(--plum)!important}
+#words [data-node-id="40:77"],
+#words [data-node-id="40:88"],
+#words [data-node-id="47:264"],
+#words [data-node-id="40:98"]{background:#78efb0!important;color:#171515!important}
+#words [data-node-id="40:98"] p{color:#171515!important;background:transparent!important}
+.word-filter:active,.words-filter-open:active{opacity:.5}
+.word-filter-stack{position:absolute;z-index:2;left:22px;right:16px;top:72px;display:flex;flex-direction:column;gap:28px}
+#words [data-node-id="40:98"]{position:static!important;inset:auto!important;margin:0 0 0 auto!important;align-self:flex-end}
+#words [data-node-id="40:99"]{position:relative!important;inset:auto!important;width:100%!important;height:1px!important;margin:0!important;overflow:hidden}
+.word-filter-group{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.word-filter-group>[data-node-id]{position:static!important;inset:auto!important;width:auto!important;height:auto!important}
+.word-filter-row{display:flex;flex-wrap:wrap;gap:8px;width:100%}
+#words .word-filter{position:static!important;left:auto!important;top:auto!important;width:auto!important;max-width:100%;height:auto!important;margin:0!important;transform:none!important;border-radius:0!important;padding:6px 10px!important}
+#words .word-filter{background:var(--plum)!important;color:#f0dbe8!important}
+#words .word-filter :is(div,p){color:inherit!important}
+#words .word-filter:not([aria-pressed="true"]):is(:hover,:focus-visible){color:#78efb0!important}
+#words .word-filter[aria-pressed="true"]{background:var(--highlight)!important;color:var(--plum)!important}
+#words .word-filter,
+#words .word-filter p{white-space:nowrap!important}
+.figma-screen .words-filter-close{left:416px!important;top:68px!important;width:auto!important;height:auto!important;padding:3px 5px 4px!important;background:var(--highlight)!important;color:var(--plum)!important;font:400 14px/1 var(--font-meta)!important}
+.words-filter-close:hover,.words-filter-close:focus-visible{background:var(--plum)!important;color:var(--highlight)!important}
+.words-filter-close:active{opacity:.5}
+#words [data-node-id="40:98"]:hover,
+#words [data-node-id="40:98"]:focus-visible{text-decoration:underline;text-underline-offset:3px}
+.word-viewer,.word-viewer-actions button{font:400 14px/1 var(--font-text)!important}
+.word-viewer::backdrop{background:rgba(53,37,63,.72)!important;backdrop-filter:blur(1px);-webkit-backdrop-filter:blur(1px)}
+.word-viewer-actions .word-viewer-flip,.word-viewer-actions .word-viewer-back{padding:4px 8px!important;color:#171515!important;text-decoration:none}
+.word-viewer-actions .word-viewer-flip{background:#78efb0!important}
+.word-viewer-actions .word-viewer-back{background:#e5ef70!important}
+.word-viewer-actions button:hover,.word-viewer-actions button:focus-visible{text-decoration:underline;text-underline-offset:3px}
+.word-viewer-actions button:active{opacity:.5}
+
+/* Passage reader: solid sheet inside, blurred page outside, yellow note for the tabs. */
+.passage-reader{box-sizing:border-box!important;border:0!important;border-radius:0!important;clip-path:none!important;width:50vw!important;max-width:50vw!important;height:min(var(--passage-fit-height,620px),calc(100dvh - 40px))!important;max-height:calc(100dvh - 40px)!important;overflow-y:auto;overflow-x:hidden;scrollbar-width:auto;scrollbar-color:auto;scrollbar-gutter:stable;background:#ead7e3!important;color:#171515!important;box-shadow:0 18px 44px rgba(23,21,21,.22);padding:0 18px 24px!important}
+.passage-reader::backdrop{background:rgba(23,21,21,.18);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.passage-photo{display:none}
+.passage-reader,.passage-reader button,.passage-row p,.passage-text h2{font-family:var(--font-text)!important}
+.passage-toolbar{background:var(--highlight)!important;color:#171515;margin:0 -18px!important;padding:12px 16px!important;box-shadow:0 8px 16px rgba(23,21,21,.08)}
+.passage-toolbar nav{gap:16px}
+.passage-reader button{font:400 13px/1.2 var(--font-text)!important;color:#171515}
+.passage-toolbar nav button{padding:3px 6px;background:none;color:#171515!important;text-decoration:none}
+.passage-toolbar nav button:hover,.passage-toolbar nav button:focus-visible{background:var(--plum);color:#78efb0!important;text-decoration:none}
+.passage-toolbar [aria-pressed="true"]{color:#171515!important;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.passage-toolbar [aria-pressed="true"]:hover,.passage-toolbar [aria-pressed="true"]:focus-visible{background:var(--plum);color:#78efb0!important;text-decoration:none}
+.passage-back{padding:4px 10px!important;background:var(--plum)!important;color:#f0dbe8!important;text-decoration:none!important}
+.passage-back:focus-visible{outline:none;text-decoration:underline!important;text-underline-offset:3px}
+.passage-back:hover{background:#78efb0!important;color:#171515!important;text-decoration:none!important}
+.passage-text{max-width:none!important;margin:24px 0 0!important}
+.passage-text h2{margin:0 0 1em;font:700 24px/1.3 var(--font-text)!important;color:#171515!important}
+.passage-row{margin-top:1em}
+.passage-row p{font:400 var(--body-size)/var(--body-leading) var(--font-body)!important;max-width:var(--body-measure);letter-spacing:0!important;text-align:left;color:#171515!important;text-wrap:pretty}
+.passage-reader button:active{opacity:.5}
+
+@media(max-width:800px){
+ .interview-pull-quote{font-size:32px!important}
+ .interview-title{font-size:24px!important}
+ .passage-text h2,
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>:first-child,
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film,#reflection,#summary) [data-name^="Question"]>:first-child p{font-size:20px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .movie-link-coming-soon,.research-source,.home-film-menu>a,#words-filter-panel,.words-gallery{transition:none}
+}
+
+/* Interview names sit on a yellow note, one third of the photograph, 15px from its top and left. */
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]{
+ position:absolute!important;z-index:8!important;left:15px!important;top:69px!important;
+ width:240px!important;height:237px!important;margin:0!important;padding:20px 18px!important;box-sizing:border-box!important;
+ display:flex!important;flex-direction:column!important;justify-content:flex-start!important;align-items:flex-start!important;gap:6px!important;
+ background:var(--highlight)!important;border-radius:0!important;box-shadow:0 10px 22px rgba(23,21,21,.16)
+}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button){
+ width:auto!important;min-width:0!important;min-height:0!important;height:auto!important;padding:2px 6px 3px!important;
+ border:0!important;border-radius:0!important;background:var(--plum)!important;box-shadow:none!important;color:#f0dbe8!important
+}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button) p{font:400 18px/1.15 var(--font-nav)!important;color:#f0dbe8!important;white-space:nowrap!important}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button):is(:hover,:focus-visible,[aria-current="page"]){
+ width:auto!important;background:var(--plum)!important;box-shadow:none!important;color:#f0dbe8!important
+}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button):is(:hover,:focus-visible) p{color:#78efb0!important;text-decoration:none}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>[aria-current="page"] p{color:#f0dbe8!important;font-weight:700!important}
+:is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>[aria-current="page"]:is(:hover,:focus-visible) p{color:#78efb0!important}
+
+/* Film uses the interview frame: no margin, image on the left half, text on the right. */
+.figma-stage:has(#film:not([hidden])){height:766px!important}
+#film,#film>div{height:766px!important}
+#film [data-name="Films — scrollable studies"]{left:0!important;right:0!important;top:54px!important;bottom:0!important;width:1440px!important;height:auto!important;background:#ead7e3!important}
+#film [data-name="Photos + interview"]{position:relative!important;left:0!important;top:0!important;width:1440px!important;height:auto!important;display:grid!important;grid-template-columns:720px 720px!important;column-gap:0!important;row-gap:0!important;align-items:stretch!important;overflow:visible!important}
+#film [data-name="Family photographs — original proportions"]>div{
+ grid-column:1!important;width:720px!important;height:auto!important;min-height:712px!important;aspect-ratio:auto!important;
+ margin:0!important;padding:0!important;position:relative!important;overflow:hidden!important;align-self:stretch!important;background:transparent!important
+}
+#film [data-name="Family photographs — original proportions"]>div:nth-child(1){grid-row:1!important}
+#film [data-name="Family photographs — original proportions"]>div:nth-child(2){grid-row:2!important}
+#film [data-name="Family photographs — original proportions"]>div:nth-child(3){grid-row:3!important}
+#film [data-name="Family photographs — original proportions"]>div:nth-child(4){grid-row:4!important}
+#film [data-name="Family photographs — original proportions"]>div:nth-child(n+2){border-top:1px solid rgba(23,21,21,.28);margin:0!important;padding:0!important}
+#film [data-name="Family photographs — original proportions"] img{
+ position:absolute!important;inset:0!important;display:block!important;width:100%!important;height:100%!important;max-height:none!important;aspect-ratio:auto!important;
+ object-fit:cover!important;object-position:center center!important;transform:none!important
+}
+#film [data-name="Interview — editable questions and answers"]>[data-name^="Question"]{grid-column:2!important}
+#film [data-name^="Question"]:nth-child(1){grid-row:1!important}
+#film [data-name^="Question"]:nth-child(2){grid-row:2!important}
+#film [data-name^="Question"]:nth-child(3){grid-row:3!important}
+#film [data-name^="Question"]:nth-child(4){grid-row:4!important}
+#film [data-name^="Question"]{
+ grid-column:2!important;width:720px!important;min-height:712px!important;margin:0!important;padding:34px 44px 42px!important;
+ align-self:stretch!important;background:#ead7e3!important;box-sizing:border-box!important
+}
+#film [data-name^="Question"]:nth-child(n+2){border-top:1px solid rgba(23,21,21,.28);margin:0!important;padding-top:34px!important}
+#film [data-name="Interview navigation — left tabs"]{
+ position:absolute!important;z-index:8!important;left:15px!important;top:69px!important;width:240px!important;height:auto!important;
+ margin:0!important;padding:20px 18px!important;box-sizing:border-box!important;transform:none!important;
+ display:flex!important;flex-direction:column!important;justify-content:flex-start!important;align-items:stretch!important;gap:6px!important;
+ background:var(--highlight)!important;border-radius:0!important;box-shadow:0 10px 22px rgba(23,21,21,.16)
+}
+#film [data-name="Interview navigation — left tabs"]>:is(a,button){
+ width:100%!important;max-width:100%!important;min-width:0!important;min-height:0!important;height:auto!important;box-sizing:border-box!important;padding:2px 6px 3px!important;
+ border:0!important;border-radius:0!important;background:var(--plum)!important;box-shadow:none!important;color:#f0dbe8!important;
+ display:flex!important;align-items:flex-start!important
+}
+#film [data-name="Interview navigation — left tabs"] :is(div,p){width:100%!important;max-width:100%!important;white-space:normal!important}
+#film [data-name="Interview navigation — left tabs"]>:is(a,button) p{margin:0!important;font:400 18px/1.15 var(--font-nav)!important;color:#f0dbe8!important;white-space:normal!important}
+#film [data-name="Interview navigation — left tabs"]>:is(a,button):is(:hover,:focus-visible){width:100%!important;background:var(--plum)!important}
+#film [data-name="Interview navigation — left tabs"]>:is(a,button):is(:hover,:focus-visible) p{color:#78efb0!important}
+#film [data-name="Interview navigation — left tabs"]>:is(a,button)[aria-current="page"]{background:var(--plum)!important}
+#film [data-name="Interview navigation — left tabs"]>:is(a,button)[aria-current="page"] p{color:#f0dbe8!important;font-weight:700!important}
+#film [data-name="Interview navigation — left tabs"]>:is(a,button)[aria-current="page"]:is(:hover,:focus-visible) p{color:#78efb0!important}
+#film [data-name="Family photographs — original proportions"]>.film-placeholder{
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ background:#f3a5de!important
+}
+#film .film-placeholder::before{content:none}
+#film .film-placeholder span{display:none}
+#film .film-reality>:nth-child(2)>p.film-reality-intro{display:inline!important;width:auto!important;max-width:none!important;margin:0!important;padding:2px 6px!important;background:var(--highlight)!important;color:var(--plum)!important;font:400 var(--body-size)/var(--body-leading) var(--font-body)!important;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+#film .film-reality p.film-reality-heading{font:700 20px/1.3 var(--font-text)!important;margin:1.4em 0 0!important;background:transparent!important;color:#171515!important}
+
+#film [data-name="Interview navigation — left tabs"]>a[href="#film/8"] p{color:#e993ce!important}
+
+.passage-reader .passage-toolbar nav button[aria-label="My POV"]{color:#e993ce!important}
+
+#research .research-lead-highlight{background:#e5ef70;padding:0 3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+#research .research-lead-keyword{background:#78efb0;color:#171515;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+
+#research p.research-lead{line-height:1.35!important}
+
+#words #words-filter-panel .words-filter-close{position:absolute!important;inset:22px 12px auto auto!important;left:auto!important;top:22px!important;width:auto!important;height:auto!important;min-height:0!important;padding:4px 5px!important;z-index:21}
+
+.word-pressure-tag.word-theme-tag{background:#e5ef70;color:#35253f}
+
+#film a.book-source{display:inline-block;width:max-content;max-width:100%;margin-top:8px;padding:2px 5px;background:#c8c3c8;color:#35253f!important;font:400 12px/1.4 var(--font-meta)!important;text-decoration:none!important;opacity:1;transition:background-color 140ms ease,color 140ms ease,opacity 140ms ease}
+#film a.book-source:hover,#film a.book-source:focus-visible{background:var(--plum);color:var(--highlight)!important;opacity:1}
+#film a.book-source:active{opacity:.5}
+@media(max-width:1100px){#film a.book-source{font-size:12px!important;line-height:1.35!important}}
+@media(prefers-reduced-motion:reduce){#film a.book-source{transition:none}}
+
+#film a.movie-source{margin-right:8px}
+
+#film [data-name^="Question"]>a.movie-source{width:max-content!important;max-width:100%!important;font:400 12px/1.4 var(--font-meta)!important}
+@media(max-width:1100px){#film [data-name^="Question"]>a.movie-source{font-size:12px!important;line-height:1.35!important}}
+
+.home-small-ornament,.home-title-ornament,.brand-flourish{display:none!important}
+
+#words [data-node-id="40:77"],#words [data-node-id="47:264"],#words [data-node-id="40:88"]{font-weight:700!important}
+
+@media(max-width:600px){:root{--body-size:16px}.passage-text h2{font-size:22px!important}}
+
+.passage-reader::-webkit-scrollbar{-webkit-appearance:none;display:block;width:8px;height:0}
+.passage-reader::-webkit-scrollbar-thumb{background:var(--plum);border:1px solid #ead7e3}
+.passage-reader::-webkit-scrollbar-track{background:rgba(53,37,63,.12)}

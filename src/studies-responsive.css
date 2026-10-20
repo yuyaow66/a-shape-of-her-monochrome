@@ -1,0 +1,472 @@
+.aunt2-responsive-content{display:contents}
+
+@media(max-width:1100px){
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name="Interview navigation — left tabs"]{
+  position:absolute!important;
+  top:var(--responsive-header-height,108px)!important;
+  left:0!important;
+  right:0!important;
+  bottom:auto!important;
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  max-height:none!important;
+  margin:0!important;
+  padding:12px 16px!important;
+  display:flex!important;
+  flex-direction:row!important;
+  flex-wrap:wrap!important;
+  align-items:center!important;
+  align-content:flex-start!important;
+  justify-content:flex-start!important;
+  gap:8px!important;
+  box-sizing:border-box!important;
+  border-radius:0!important;
+  background:var(--highlight)!important;
+  box-shadow:none!important;
+  transform:none!important;
+  z-index:8!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name="Interview navigation — left tabs"]>:is(a,button){
+  width:auto!important;
+  max-width:100%!important;
+  min-width:0!important;
+  min-height:44px!important;
+  height:auto!important;
+  margin:0!important;
+  padding:10px 12px!important;
+  display:flex!important;
+  align-items:center!important;
+  border:0!important;
+  border-radius:0!important;
+  background:var(--plum)!important;
+  color:#f0dbe8!important;
+  box-shadow:none!important;
+  white-space:normal!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name="Interview navigation — left tabs"]>:is(a,button):is(:hover,:focus-visible,[aria-current="page"]){
+  width:auto!important;
+  background:var(--plum)!important;
+  box-shadow:none!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name="Interview navigation — left tabs"]>:is(a,button) p{
+  width:auto!important;
+  max-width:100%!important;
+  margin:0!important;
+  font:400 16px/1.25 var(--font-nav)!important;
+  color:#f0dbe8!important;
+  white-space:normal!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name="Interview navigation — left tabs"]>:is(a,button)[aria-current="page"] p{font-weight:700!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name="Interview navigation — left tabs"]>:is(a,button):is(:hover,:focus-visible) p{color:#78efb0!important}
+
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1) [data-name$="scrollable interview"],
+ #aunt2 .aunt2-responsive-content,
+ #film [data-name="Films — scrollable studies"]{
+  position:absolute!important;
+  inset:auto!important;
+  top:calc(var(--responsive-header-height,108px) + var(--responsive-tabs-height,68px))!important;
+  left:0!important;
+  right:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  overflow-x:hidden!important;
+  overscroll-behavior-y:contain;
+  scrollbar-width:thin;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1) [data-name$="scrollable interview"]{overflow-y:hidden!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1) [data-name="Photos + interview"]{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+  gap:0!important;
+  align-items:stretch!important;
+  overflow:hidden!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Family photographs — original proportions"],
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview — editable questions and answers"]{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  max-width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  min-width:0!important;
+  flex:none!important;
+  margin:0!important;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  overscroll-behavior-y:contain;
+  scrollbar-width:thin;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Family photographs — original proportions"]{
+  display:flex!important;
+  flex-direction:column!important;
+  gap:0!important;
+  padding:0!important;
+  background:transparent!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Family photographs — original proportions"]>div{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  flex:0 0 auto!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Family photographs — original proportions"] img{
+  position:static!important;
+  width:100%!important;
+  height:auto!important;
+  max-height:none!important;
+  display:block!important;
+  object-fit:cover!important;
+  transform:none!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview — editable questions and answers"]{
+  display:flex!important;
+  flex-direction:column!important;
+  padding:28px clamp(20px,3.2vw,36px) 48px!important;
+  gap:36px!important;
+  background:#ead7e3!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) .interview-intro{
+  width:100%!important;
+  min-height:0!important;
+  height:auto!important;
+  flex:0 0 auto!important;
+  padding:0 0 12px!important;
+  gap:12px!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) .interview-title{font-size:24px!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) .interview-pull-quote{
+  margin:20px 0 0!important;
+  font-size:clamp(30px,3.8vw,42px)!important;
+  line-height:1.22!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]{
+  width:100%!important;
+  min-width:0!important;
+  max-width:100%!important;
+  height:auto!important;
+  flex:0 0 auto!important;
+  overflow:visible!important;
+  gap:14px!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]>*{
+  width:100%!important;
+  max-width:100%!important;
+  height:auto!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]>:first-child,
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]>:first-child p{
+  font-size:24px!important;
+  line-height:1.3!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]>:not(:first-child),
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]>:not(:first-child) p{
+  font-size:var(--body-size)!important;
+  line-height:var(--body-leading)!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) .passage-source>:first-child{padding-left:56px!important;padding-right:0!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name^="Question"]>.passage-open{
+  left:0!important;
+  right:auto!important;
+  top:-6px!important;
+  width:44px!important;
+  min-width:44px!important;
+  max-width:44px!important;
+  height:44px!important;
+  padding:12px!important;
+  font-size:16px!important;
+  line-height:20px!important;
+ }
+ #aunt2 .aunt2-responsive-content{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+  gap:0!important;
+  overflow-y:hidden!important;
+ }
+ #aunt2 :is([data-name="Aunt 2 — scrollable photographs"],[data-name="Aunt 2 — scrollable interview"]){
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  min-width:0!important;
+  height:100%!important;
+  min-height:0!important;
+  overflow:hidden!important;
+ }
+ #aunt2 [data-name="Aunt 2 — scrollable photographs"]>[data-name="Family photographs — original proportions"],
+ #aunt2 [data-name="Aunt 2 — scrollable interview"]>[data-name="Interview — editable questions and answers"]{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  overflow-y:auto!important;
+ }
+
+ #film [data-name="Interview navigation — left tabs"]{align-items:stretch!important}
+ #film [data-name="Interview navigation — left tabs"]>:is(a,button){flex:1 1 200px!important}
+ #film [data-name="Interview navigation — left tabs"] :is(div,p){width:auto!important;max-width:100%!important;white-space:normal!important}
+ #film [data-name="Films — scrollable studies"]{overflow-y:auto!important;background:#ead7e3!important}
+ #film [data-name="Photos + interview"]{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+  gap:0!important;
+  align-items:stretch!important;
+  overflow:visible!important;
+ }
+ #film :is([data-name="Family photographs — original proportions"],[data-name="Interview — editable questions and answers"]){display:contents!important}
+ #film [data-name="Family photographs — original proportions"]>div{
+  grid-column:1!important;
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  aspect-ratio:auto!important;
+  padding:0!important;
+  margin:0!important;
+  align-self:stretch!important;
+  overflow:hidden!important;
+  background:transparent!important;
+ }
+ #film [data-name="Family photographs — original proportions"] img{
+  position:absolute!important;
+  inset:0!important;
+  width:100%!important;
+  height:100%!important;
+  max-height:none!important;
+  object-fit:cover!important;
+  object-position:center!important;
+  transform:none!important;
+ }
+ #film [data-name="Interview — editable questions and answers"]>[data-name^="Question"]{
+  grid-column:2!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:28px clamp(20px,3.2vw,36px) 40px!important;
+  background:#ead7e3!important;
+  align-self:stretch!important;
+ }
+ #film [data-name^="Question"]:nth-child(n+2){padding-top:28px!important}
+ #film [data-name^="Question"]>p.movie-link-coming-soon{width:max-content!important;max-width:100%!important;font-size:12px!important;line-height:1.35!important}
+ #film [data-name^="Question"]>:nth-child(2)>p.film-meta{font-size:13px!important;line-height:1.35!important}
+ #film .film-reality>:nth-child(2)>p.film-reality-intro{font-size:var(--body-size)!important;line-height:var(--body-leading)!important}
+ #film .film-reality p.film-reality-heading{font-size:20px!important;line-height:1.3!important}
+}
+
+@media(max-width:700px){
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name="Interview navigation — left tabs"]{padding:8px 12px!important;gap:6px!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button){padding:10px!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview navigation — left tabs"]>:is(a,button) p{font-size:15px!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1) [data-name$="scrollable interview"],
+ #aunt2 .aunt2-responsive-content{overflow-y:auto!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1) [data-name="Photos + interview"]{
+  height:auto!important;
+  min-height:100%!important;
+  display:block!important;
+  overflow:visible!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Family photographs — original proportions"],
+ #aunt2 [data-name="Aunt 2 — scrollable photographs"]>[data-name="Family photographs — original proportions"]{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  height:42dvh!important;
+  max-height:420px!important;
+  min-height:0!important;
+  display:flex!important;
+  flex-direction:row!important;
+  align-items:stretch!important;
+  gap:0!important;
+  overflow-x:auto!important;
+  overflow-y:hidden!important;
+  scroll-snap-type:x mandatory;
+  overscroll-behavior-x:contain;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Family photographs — original proportions"]>div,
+ #aunt2 [data-name="Aunt 2 — scrollable photographs"]>[data-name="Family photographs — original proportions"]>div{
+  width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  flex:0 0 100%!important;
+  scroll-snap-align:start;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Family photographs — original proportions"] img,
+ #aunt2 [data-name="Aunt 2 — scrollable photographs"] img{
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) [data-name="Interview — editable questions and answers"],
+ #aunt2 [data-name="Aunt 2 — scrollable interview"]>[data-name="Interview — editable questions and answers"]{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  padding:28px 20px 44px!important;
+  gap:32px!important;
+  overflow:visible!important;
+ }
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2) .interview-pull-quote{font-size:clamp(30px,7.7vw,42px)!important}
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]>:first-child,
+ :is(#mom,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#fengqin,#grandma,#aunt1,#aunt2,#film) [data-name^="Question"]>:first-child p{font-size:22px!important}
+ #aunt2 .aunt2-responsive-content{display:block!important}
+ #aunt2 :is([data-name="Aunt 2 — scrollable photographs"],[data-name="Aunt 2 — scrollable interview"]){height:auto!important;overflow:visible!important}
+
+ #film [data-name="Interview navigation — left tabs"]>:is(a,button){flex:1 1 calc(50% - 6px)!important;padding:8px 10px!important}
+ #film [data-name="Interview navigation — left tabs"]>:is(a,button) p{font-size:14px!important;line-height:1.2!important}
+ #film [data-name="Photos + interview"]{grid-template-columns:minmax(0,1fr)!important}
+ #film [data-name="Family photographs — original proportions"]>div{
+  grid-column:1!important;
+  height:36dvh!important;
+  min-height:0!important;
+  max-height:360px!important;
+  align-self:start!important;
+ }
+ #film [data-name="Family photographs — original proportions"] img{object-fit:contain!important}
+ #film [data-name="Interview — editable questions and answers"]>[data-name^="Question"]{grid-column:1!important;padding:26px 20px 36px!important}
+ #film [data-name="Family photographs — original proportions"]>div:nth-child(1){grid-row:1!important}
+ #film [data-name="Family photographs — original proportions"]>div:nth-child(2){grid-row:3!important}
+ #film [data-name="Family photographs — original proportions"]>div:nth-child(3){grid-row:5!important}
+ #film [data-name="Family photographs — original proportions"]>div:nth-child(4){grid-row:7!important}
+ #film [data-name^="Question"]:nth-child(1){grid-row:2!important}
+ #film [data-name^="Question"]:nth-child(2){grid-row:4!important}
+ #film [data-name^="Question"]:nth-child(3){grid-row:6!important}
+ #film [data-name^="Question"]:nth-child(4){grid-row:8!important}
+}
+
+#film.book-studies-ready [data-name="Family photographs — original proportions"]>div,
+#film.book-studies-ready [data-name="Interview — editable questions and answers"]>[data-name^="Question"]{grid-row:var(--study-row)!important}
+#film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-title-plate{
+ display:flex!important;flex-direction:column;justify-content:space-between;align-items:flex-start;
+ align-self:start!important;min-height:420px!important;background:#35253f!important;color:#78efb0!important;
+ padding:38px!important;box-sizing:border-box;
+}
+#film.book-studies-ready .book-plate-author,
+#film.book-studies-ready .book-plate-year{font:400 18px/1.4 var(--font-text);margin:0;color:#78efb0}
+#film.book-studies-ready .book-plate-title{font:700 clamp(32px,3.4vw,48px)/1.15 var(--font-text);color:#e5ef70;margin:36px 0;overflow-wrap:anywhere}
+#film.book-studies-ready .book-plate-title span{display:block}
+#film .book-quote{margin:24px 0;font:400 30px/1.3 var(--font-body)}
+#film .book-quote span{background:#e5ef70;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+#film [data-name^="Question"] .book-citation{margin-top:28px!important;font-size:14px!important;line-height:1.5!important}
+#film .book-source{display:inline-block;margin-top:8px;color:#35253f;text-decoration:underline;text-underline-offset:4px;font:400 14px/1.5 var(--font-text)}
+#film .book-source:focus-visible{outline:2px solid #35253f;outline-offset:4px}
+@media(min-width:1101px){
+ #film.book-studies-ready [data-name="Interview navigation — left tabs"]{max-height:calc(var(--film-height,766px) - 140px);overflow-y:auto;overflow-x:hidden;width:200px!important;scrollbar-width:thin}
+}
+@media(max-width:1100px){
+ #film.book-studies-ready [data-name="Interview navigation — left tabs"]{max-height:200px!important;overflow-y:auto!important;overscroll-behavior:contain}
+ #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-title-plate{min-height:360px!important;padding:28px!important}
+ #film.book-studies-ready .book-plate-title{font-size:clamp(32px,4.5vw,44px)}
+ #film .book-quote{font-size:26px}
+}
+@media(max-width:700px){
+ #film.book-studies-ready [data-name="Family photographs — original proportions"]>div,
+ #film.book-studies-ready [data-name="Interview — editable questions and answers"]>[data-name^="Question"]{grid-row:var(--study-mobile-row)!important}
+ #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-title-plate{height:36dvh!important;min-height:260px!important;padding:24px!important}
+ #film.book-studies-ready .book-plate-title{font-size:clamp(28px,8vw,36px);margin:16px 0}
+ #film.book-studies-ready .book-plate-author,#film.book-studies-ready .book-plate-year{font-size:15px}
+}
+
+#film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-cover{display:flex!important;flex-direction:column;align-items:center;align-self:stretch!important;height:auto!important;min-height:0!important;max-height:none!important;padding:28px!important;background:#ead7e3!important;gap:16px}
+#film.book-studies-ready [data-name="Family photographs — original proportions"] .book-cover img{position:static!important;inset:auto!important;width:100%!important;height:auto!important;max-width:360px!important;max-height:500px!important;object-fit:contain!important;display:block!important;transform:none!important}
+#film .book-cover-credit{color:#35253f;font:400 12px/1.4 var(--font-text);text-decoration:underline;text-underline-offset:3px;max-width:360px}
+#film .book-cover-credit:focus-visible{outline:2px solid #35253f;outline-offset:4px}
+@media(max-width:700px){
+ #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-cover{padding:24px!important}
+ #film.book-studies-ready [data-name="Family photographs — original proportions"] .book-cover img{max-height:360px!important}
+}
+
+@media(min-width:1101px){
+ #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.book-cover{padding-left:160px!important}
+}
+
+#film.book-studies-ready [data-name="Family photographs — original proportions"]>div.film-placeholder{height:auto!important;min-height:0!important;align-self:stretch!important}
+@media(max-width:700px){
+ #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.film-placeholder{height:36dvh!important}
+}
+
+.additional-interview .interview-photo-placeholder{min-height:100%!important;display:flex!important;flex-direction:column;justify-content:center;align-items:center;background:#35253f!important;color:#78efb0;gap:20px;line-height:1.3!important;padding:32px!important;box-sizing:border-box;text-align:center}
+.interview-photo-placeholder p:first-child{font:700 40px/1.2 var(--font-text)}
+.interview-photo-placeholder p:last-child{font:400 13px/1.4 var(--font-meta)}
+@media(min-width:1101px){
+ :is(#mom,#grandma,#aunt1,#aunt2,#xiaomin,#xiaosheng,#zhengjuan) [data-name="Interview navigation — left tabs"]{max-height:610px!important;overflow-y:auto!important;scrollbar-width:thin}
+}
+
+#film.book-studies-ready [data-name="Family photographs — original proportions"]>div.film-placeholder{background:#ead7e3!important;margin:0!important;padding:0!important;border:0!important;border-top:1px solid rgba(23,21,21,.28)!important}
+#film.book-studies-ready .film-reality{background:#ead7e3!important;border:0!important;border-top:1px solid rgba(23,21,21,.28)!important}
+@media(max-width:700px){#film.book-studies-ready [data-name="Family photographs — original proportions"]>div.film-placeholder{display:none!important}}
+
+@media(max-width:1100px){
+ #film.book-studies-ready [data-name="Family photographs — original proportions"]>div.film-placeholder{display:none!important}
+ #film.book-studies-ready [data-name="Interview — editable questions and answers"]>.film-reality{grid-column:1 / -1!important;width:100%!important;max-width:100%!important}
+}
+
+#fengqin .interview-photo-frame{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;flex:none!important}
+#fengqin .interview-photo-frame img{position:static!important;display:block!important;inset:auto!important;width:100%!important;height:auto!important;max-width:100%!important;object-fit:contain!important}
+
+.figma-screen:is(#mom,#grandma,#aunt1,#aunt2,#fengqin,#xiaomin,#xiaosheng,#zhengjuan,#fanghanqin,#film) [data-name="Interview navigation — left tabs"]{height:auto!important;max-height:none!important;overflow:visible!important}
+
+#film.book-studies-ready [data-name="Family photographs — original proportions"]>div.film-placeholder{display:none!important}
+#film.book-studies-ready [data-name="Interview — editable questions and answers"]>.film-reality{grid-column:1 / -1!important;display:block!important;position:relative!important;width:100%!important;max-width:none!important;min-height:0!important;height:auto!important;margin:0!important;padding:64px 56px 96px!important;overflow:visible!important;border:0!important;background:var(--plum)!important;color:#ead7e3!important}
+#film.book-studies-ready .film-reality .reality-header{position:relative!important;display:block!important;width:100%!important;max-width:1180px!important;margin:0 auto 76px!important;padding:0!important}
+#film.book-studies-ready .film-reality .reality-title{display:block;margin:0;font-family:var(--font-text);font-weight:400;letter-spacing:0;text-align:left}
+#film.book-studies-ready .film-reality .reality-title>span{display:block;margin:0 0 16px;color:#78efb0;font:400 22px/1.35 var(--font-text)}
+#film.book-studies-ready .film-reality .reality-title>strong{display:block;color:var(--highlight);font:400 104px/1 var(--font-text);letter-spacing:-.035em}
+#film.book-studies-ready .film-reality p.reality-intro{max-width:50ch!important;margin:26px 0 0!important;padding:0!important;background:transparent!important;color:#ead7e3!important;font:400 18px/1.65 var(--font-body)!important;letter-spacing:0!important}
+#film.book-studies-ready .film-reality .reality-reading{display:grid!important;grid-template-columns:250px minmax(0,1fr);gap:80px;align-items:start;position:relative!important;width:100%!important;max-width:1180px!important;margin:0 auto!important;padding:0!important;overflow:visible!important}
+#film.book-studies-ready .film-reality .reality-directory{position:sticky;top:24px;display:flex;flex-direction:column;align-items:stretch;gap:12px;margin:0;padding:0;max-height:calc(var(--film-height,766px) - 102px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:#78efb0 var(--plum)}
+#film.book-studies-ready .film-reality .reality-directory a{display:grid;grid-template-columns:24px minmax(0,1fr);align-items:baseline;gap:12px;min-height:44px;padding:6px 0;box-sizing:border-box;background:transparent;color:#ead7e3;font:400 16px/1.4 var(--font-nav);text-decoration:none;transition:color 150ms ease}
+#film.book-studies-ready .film-reality .reality-note-number{font-size:12px;color:#c4afc3}
+#film.book-studies-ready .film-reality .reality-directory a:is(:hover,:focus-visible){color:#78efb0}
+#film.book-studies-ready .film-reality .reality-directory a[aria-current="location"]{color:var(--highlight)}
+#film.book-studies-ready .film-reality .reality-directory a[aria-current="location"] .reality-note-number{color:var(--highlight)}
+#film.book-studies-ready .film-reality .reality-directory a:focus-visible{outline:1px solid #78efb0;outline-offset:4px}
+#film.book-studies-ready .film-reality .reality-reflections{min-width:0;max-width:none!important}
+#film.book-studies-ready .film-reality .reality-note{margin:0;padding:0 0 84px;max-width:64ch;color:#ead7e3}
+#film.book-studies-ready .film-reality .reality-note:last-child{padding-bottom:0}
+#film.book-studies-ready .film-reality .reality-note-title{margin:0 0 22px;padding:0;color:#78efb0;font:400 16px/1.45 var(--font-text);scroll-margin-top:24px}
+#film.book-studies-ready .film-reality .reality-note-title:focus{outline:none}
+#film.book-studies-ready .film-reality .reality-note-title:focus-visible{outline:1px solid #78efb0;outline-offset:6px}
+#film.book-studies-ready .film-reality .reality-note p{max-width:62ch!important;margin:20px 0 0!important;padding:0!important;background:transparent!important;color:#ead7e3!important;font:400 18px/1.75 var(--font-body)!important;letter-spacing:0!important;text-align:left!important;text-wrap:pretty}
+@media(max-width:1100px){
+ #film.book-studies-ready [data-name="Interview — editable questions and answers"]>.film-reality{padding:44px 32px 72px!important}
+ #film.book-studies-ready .film-reality .reality-header{margin-bottom:52px!important}
+ #film.book-studies-ready .film-reality .reality-title>strong{font-size:88px}
+ #film.book-studies-ready .film-reality .reality-reading{grid-template-columns:200px minmax(0,1fr);gap:40px}
+ #film.book-studies-ready .film-reality .reality-directory{max-height:calc(100dvh - var(--responsive-header-height,108px) - 48px)}
+}
+@media(max-width:800px){
+ #film.book-studies-ready .film-reality .reality-reading{grid-template-columns:minmax(0,1fr);gap:40px}
+ #film.book-studies-ready .film-reality .reality-directory{position:static;display:flex;flex-direction:row;gap:24px;width:100%;max-height:none;overflow-x:auto;overflow-y:hidden;padding:0 0 14px}
+ #film.book-studies-ready .film-reality .reality-directory a{flex:0 0 190px;min-height:64px}
+}
+@media(max-width:600px){
+ #film.book-studies-ready [data-name="Interview — editable questions and answers"]>.film-reality{padding:36px 20px 56px!important}
+ #film.book-studies-ready .film-reality .reality-header{margin-bottom:36px!important}
+ #film.book-studies-ready .film-reality .reality-title>span{max-width:24ch;margin-bottom:14px;font-size:16px}
+ #film.book-studies-ready .film-reality .reality-title>strong{font-size:clamp(50px,13vw,76px)}
+ #film.book-studies-ready .film-reality p.reality-intro{font-size:16px!important;margin-top:22px!important}
+ #film.book-studies-ready .film-reality .reality-reading{gap:32px}
+ #film.book-studies-ready .film-reality .reality-note{padding-bottom:56px}
+ #film.book-studies-ready .film-reality .reality-note-title{font-size:15px;margin-bottom:18px}
+ #film.book-studies-ready .film-reality .reality-note p{font-size:16px!important;line-height:1.75!important}
+}
+@media(prefers-reduced-motion:reduce){#film.book-studies-ready .film-reality .reality-directory a{transition:none}}

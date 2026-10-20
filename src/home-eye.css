@@ -1,0 +1,7 @@
+.figma-home .home-eyes{grid-area:eyes;display:block;position:relative;inset:auto;align-self:start;width:100%;max-width:680px;aspect-ratio:2;height:auto;margin:32px 0 0;padding:0;border:0;background:transparent;cursor:crosshair;touch-action:pan-y;z-index:1}
+.home-eyes canvas{display:block;width:100%;height:100%}
+.home-eyes:focus-visible{outline:1px solid #78efb0;outline-offset:8px}
+@media(max-width:860px){.figma-home .home-eyes{justify-self:center;width:min(100%,640px);margin:0}}
+.home-pixel-trail{position:fixed;inset:0;display:block;width:100vw;height:100vh;pointer-events:none;z-index:25}
+#about.home-about{z-index:30}
+body.home-about-open .figma-home{z-index:30}

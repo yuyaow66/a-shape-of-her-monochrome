@@ -1,0 +1,1932 @@
+[
+  {
+    "id": "childhood-01",
+    "number": 1,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Obedience"
+    ],
+    "text": {
+      "en": "Have you been a good girl today?",
+      "zh": "你今天乖不乖？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3783.png",
+      "zh": "assets/childhood-strips/IMG_3784.png"
+    }
+  },
+  {
+    "id": "childhood-02",
+    "number": 2,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "School Expectations",
+      "Peer Pressure"
+    ],
+    "themes": [
+      "Education",
+      "Ambition"
+    ],
+    "text": {
+      "en": "Where did you rank in your class this time?",
+      "zh": "这次考试在班里排第几？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3779.png",
+      "zh": "assets/childhood-strips/IMG_3780.png"
+    }
+  },
+  {
+    "id": "childhood-03",
+    "number": 3,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "School Expectations",
+      "Peer Pressure"
+    ],
+    "themes": [
+      "Education",
+      "Ambition"
+    ],
+    "text": {
+      "en": "Everyone else can do it. Why can’t you?",
+      "zh": "别人都会了，你怎么还不会？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3795.png",
+      "zh": "assets/childhood-strips/IMG_3796.png"
+    }
+  },
+  {
+    "id": "childhood-04",
+    "number": 4,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Social Norms",
+      "External Gaze"
+    ],
+    "themes": [
+      "Obedience",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Shouldn’t a girl be a little quieter?",
+      "zh": "女孩子是不是应该安静一点？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3793.png",
+      "zh": "assets/childhood-strips/IMG_3794.png"
+    }
+  },
+  {
+    "id": "childhood-05",
+    "number": 5,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Appearance",
+      "Obedience"
+    ],
+    "text": {
+      "en": "How did you get your dress dirty again?",
+      "zh": "你怎么又把裙子弄脏了？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3789.png",
+      "zh": "assets/childhood-strips/IMG_3790.png"
+    }
+  },
+  {
+    "id": "childhood-06",
+    "number": 6,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Relationships",
+      "Obedience"
+    ],
+    "text": {
+      "en": "You’re his older sister. Can’t you let him have his way?",
+      "zh": "你是姐姐，让着弟弟不行吗？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3785.png",
+      "zh": "assets/childhood-strips/IMG_3786.png"
+    }
+  },
+  {
+    "id": "childhood-07",
+    "number": 7,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Relationships",
+      "Obedience"
+    ],
+    "text": {
+      "en": "Why haven’t you greeted your elders?",
+      "zh": "见到长辈，怎么不知道叫人？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3769.png",
+      "zh": "assets/childhood-strips/IMG_3770.png"
+    }
+  },
+  {
+    "id": "childhood-08",
+    "number": 8,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Relationships",
+      "Independence",
+      "Personal Choice",
+      "Obedience"
+    ],
+    "text": {
+      "en": "Why won’t you let your relative give you a hug?",
+      "zh": "让亲戚抱一下，怎么还不愿意？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3791.png",
+      "zh": "assets/childhood-strips/IMG_3792.png"
+    }
+  },
+  {
+    "id": "childhood-09",
+    "number": 9,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Personal Choice",
+      "Independence"
+    ],
+    "text": {
+      "en": "Why do you always play with boys’ toys?",
+      "zh": "你怎么总玩男孩子的玩具？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3781.png",
+      "zh": "assets/childhood-strips/IMG_3782.png"
+    }
+  },
+  {
+    "id": "childhood-10",
+    "number": 10,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Education",
+      "Personal Choice",
+      "Independence"
+    ],
+    "text": {
+      "en": "What’s wrong with learning piano? Why do you insist on football?",
+      "zh": "学钢琴不好吗，为什么非要踢球？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3767.png",
+      "zh": "assets/childhood-strips/IMG_3768.png"
+    }
+  },
+  {
+    "id": "childhood-11",
+    "number": 11,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "School Expectations"
+    ],
+    "themes": [
+      "Education",
+      "Obedience"
+    ],
+    "text": {
+      "en": "Have you finished your homework, or are you already thinking about playing?",
+      "zh": "作业写完了吗，就想着玩？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3787.png",
+      "zh": "assets/childhood-strips/IMG_3788.png"
+    }
+  },
+  {
+    "id": "childhood-12",
+    "number": 12,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Peer Pressure"
+    ],
+    "themes": [
+      "Obedience"
+    ],
+    "text": {
+      "en": "Why can’t you be as easy to raise as other people’s children?",
+      "zh": "你看别人家的孩子，怎么那么省心？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3777.png",
+      "zh": "assets/childhood-strips/IMG_3778.png"
+    }
+  },
+  {
+    "id": "childhood-13",
+    "number": 13,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Social Norms"
+    ],
+    "themes": [
+      "Obedience",
+      "Housework"
+    ],
+    "text": {
+      "en": "Aren’t girls supposed to be more careful?",
+      "zh": "女孩子不是应该更细心吗？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3799.png",
+      "zh": "assets/childhood-strips/IMG_3800.png"
+    }
+  },
+  {
+    "id": "childhood-14",
+    "number": 14,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Relationships",
+      "Obedience"
+    ],
+    "text": {
+      "en": "Your mom works so hard. Why can’t you be more considerate?",
+      "zh": "妈妈这么辛苦，你怎么还不懂事？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3803.png",
+      "zh": "assets/childhood-strips/IMG_3804.png"
+    }
+  },
+  {
+    "id": "childhood-15",
+    "number": 15,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Housework",
+      "Caregiving"
+    ],
+    "text": {
+      "en": "Why aren’t you helping your mom with the housework?",
+      "zh": "为什么不帮妈妈做家务？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3801.png",
+      "zh": "assets/childhood-strips/IMG_3802.png"
+    }
+  },
+  {
+    "id": "childhood-16",
+    "number": 16,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Obedience",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why are you crying again? What is there to cry about?",
+      "zh": "你怎么又哭了，这有什么好哭的？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3797.png",
+      "zh": "assets/childhood-strips/IMG_3798.png"
+    }
+  },
+  {
+    "id": "childhood-17",
+    "number": 17,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "School Expectations"
+    ],
+    "themes": [
+      "Obedience",
+      "Education"
+    ],
+    "text": {
+      "en": "Your teacher says you talk too much. Can’t you hold it in?",
+      "zh": "老师说你爱说话，你就不能忍一忍吗？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3772.png",
+      "zh": "assets/childhood-strips/IMG_3771.png"
+    }
+  },
+  {
+    "id": "childhood-18",
+    "number": 18,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Relationships",
+      "Money"
+    ],
+    "text": {
+      "en": "How will you repay your parents when you grow up?",
+      "zh": "你长大以后，要怎么报答爸爸妈妈？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3775.png",
+      "zh": "assets/childhood-strips/IMG_3776.png"
+    }
+  },
+  {
+    "id": "childhood-19",
+    "number": 19,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "School Expectations",
+      "External Gaze",
+      "Self-Expectations"
+    ],
+    "themes": [
+      "Education",
+      "Ambition",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "With all those classes, what are you good enough at to show people?",
+      "zh": "这么多兴趣班，哪一个是你最拿得出手的？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3765.png",
+      "zh": "assets/childhood-strips/IMG_3766.png"
+    }
+  },
+  {
+    "id": "childhood-20",
+    "number": 20,
+    "lifeStages": [
+      "Childhood"
+    ],
+    "pressure": [
+      "Pressure from Family"
+    ],
+    "themes": [
+      "Obedience",
+      "Independence",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "We only want what’s best for you. Why won’t you listen?",
+      "zh": "我们都是为你好，你为什么不听？"
+    },
+    "images": {
+      "en": "assets/childhood-strips/IMG_3773.png",
+      "zh": "assets/childhood-strips/IMG_3774.png"
+    }
+  },
+  {
+    "id": "adolescence-01",
+    "number": 21,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Social Norms",
+      "School Expectations"
+    ],
+    "themes": [
+      "Education",
+      "Ambition"
+    ],
+    "text": {
+      "en": "Can girls still keep up in science once they reach high school?",
+      "zh": "女孩子到了高中，理科还能跟得上吗？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3878.webp",
+      "zh": "assets/adolescence-strips/IMG_3879.webp"
+    }
+  },
+  {
+    "id": "adolescence-02",
+    "number": 22,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "School Expectations"
+    ],
+    "themes": [
+      "Education",
+      "Ambition",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "With grades like yours, why would you choose art?",
+      "zh": "成绩这么好，怎么偏偏要学艺术？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3872.webp",
+      "zh": "assets/adolescence-strips/IMG_3873.webp"
+    }
+  },
+  {
+    "id": "adolescence-03",
+    "number": 23,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "School Expectations",
+      "Self-Expectations"
+    ],
+    "themes": [
+      "Education",
+      "Ambition"
+    ],
+    "text": {
+      "en": "If you don’t push yourself now, how will you get into a good university?",
+      "zh": "你现在不拼，以后怎么考上好大学？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3892.webp",
+      "zh": "assets/adolescence-strips/IMG_3893.webp"
+    }
+  },
+  {
+    "id": "adolescence-04",
+    "number": 24,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms",
+      "Media Influence"
+    ],
+    "themes": [
+      "Appearance",
+      "Body Image"
+    ],
+    "text": {
+      "en": "At your age, shouldn’t you start making more effort with how you look?",
+      "zh": "都这个年纪了，怎么还不知道打扮？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3890.webp",
+      "zh": "assets/adolescence-strips/IMG_3891.webp"
+    }
+  },
+  {
+    "id": "adolescence-05",
+    "number": 25,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "School Expectations",
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Appearance",
+      "Education",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Are you here to study or to show off?",
+      "zh": "你是来上学的，还是来打扮的？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3888.webp",
+      "zh": "assets/adolescence-strips/IMG_3889.webp"
+    }
+  },
+  {
+    "id": "adolescence-06",
+    "number": 26,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms",
+      "Media Influence"
+    ],
+    "themes": [
+      "Body Image",
+      "Appearance"
+    ],
+    "text": {
+      "en": "Have you put on weight again?",
+      "zh": "你是不是又胖了？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3886.webp",
+      "zh": "assets/adolescence-strips/IMG_3887.webp"
+    }
+  },
+  {
+    "id": "adolescence-07",
+    "number": 27,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms",
+      "Media Influence"
+    ],
+    "themes": [
+      "Body Image",
+      "Appearance"
+    ],
+    "text": {
+      "en": "Why does a girl need to eat so much?",
+      "zh": "女孩子吃这么多干什么？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3884.webp",
+      "zh": "assets/adolescence-strips/IMG_3885.webp"
+    }
+  },
+  {
+    "id": "adolescence-08",
+    "number": 28,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Appearance",
+      "Body Image",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Aren’t you worried about what people will say if you wear something that short?",
+      "zh": "穿这么短，你不怕别人议论吗？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3876.webp",
+      "zh": "assets/adolescence-strips/IMG_3877.webp"
+    }
+  },
+  {
+    "id": "adolescence-09",
+    "number": 29,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Obedience",
+      "Appearance"
+    ],
+    "text": {
+      "en": "Can’t you sit properly, like a young lady?",
+      "zh": "女孩子坐着能不能规矩一点？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3874.webp",
+      "zh": "assets/adolescence-strips/IMG_3875.webp"
+    }
+  },
+  {
+    "id": "adolescence-10",
+    "number": 30,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms",
+      "Media Influence"
+    ],
+    "themes": [
+      "Appearance",
+      "Body Image"
+    ],
+    "text": {
+      "en": "Why have you let yourself get so tanned?",
+      "zh": "你怎么晒得这么黑？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3880.webp",
+      "zh": "assets/adolescence-strips/IMG_3881.webp"
+    }
+  },
+  {
+    "id": "adolescence-11",
+    "number": 31,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Relationships",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "What exactly is going on between you and that boy?",
+      "zh": "你跟那个男生到底是什么关系？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3870.webp",
+      "zh": "assets/adolescence-strips/IMG_3871.webp"
+    }
+  },
+  {
+    "id": "adolescence-12",
+    "number": 32,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Relationships",
+      "Personal Choice",
+      "Independence"
+    ],
+    "text": {
+      "en": "How can you like girls?",
+      "zh": "你怎么能喜欢女孩子？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3868.webp",
+      "zh": "assets/adolescence-strips/IMG_3869.webp"
+    }
+  },
+  {
+    "id": "adolescence-13",
+    "number": 33,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family"
+    ],
+    "themes": [
+      "Independence",
+      "Personal Choice",
+      "Obedience"
+    ],
+    "text": {
+      "en": "What’s on your phone that you can’t show your parents?",
+      "zh": "手机有什么不能让爸妈看的？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3882.webp",
+      "zh": "assets/adolescence-strips/IMG_3883.webp"
+    }
+  },
+  {
+    "id": "adolescence-14",
+    "number": 34,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Independence",
+      "Obedience",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "How can a girl stay out this late?",
+      "zh": "晚上出去，女孩子怎么能这么晚回家？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3866.webp",
+      "zh": "assets/adolescence-strips/IMG_3867.webp"
+    }
+  },
+  {
+    "id": "adolescence-15",
+    "number": 35,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms",
+      "Peer Pressure"
+    ],
+    "themes": [
+      "Relationships",
+      "Obedience",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why does he pick on you and not anyone else?",
+      "zh": "他为什么只招惹你，不招惹别人？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3864.webp",
+      "zh": "assets/adolescence-strips/IMG_3865.webp"
+    }
+  },
+  {
+    "id": "adolescence-16",
+    "number": 36,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms",
+      "School Expectations"
+    ],
+    "themes": [
+      "Obedience",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Can’t you put up with it instead of making a scene?",
+      "zh": "有什么委屈不能忍一忍，非要闹大？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3862.webp",
+      "zh": "assets/adolescence-strips/IMG_3863.webp"
+    }
+  },
+  {
+    "id": "adolescence-17",
+    "number": 37,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms",
+      "School Expectations"
+    ],
+    "themes": [
+      "Education",
+      "Work",
+      "Ambition",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Wouldn’t it be safer for a girl to become a teacher?",
+      "zh": "女孩子读师范不是更稳妥吗？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3860.webp",
+      "zh": "assets/adolescence-strips/IMG_3861.webp"
+    }
+  },
+  {
+    "id": "adolescence-18",
+    "number": 38,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family"
+    ],
+    "themes": [
+      "Education",
+      "Independence",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Do you really have to go so far away for university?",
+      "zh": "上大学非要去那么远吗？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3858.webp",
+      "zh": "assets/adolescence-strips/IMG_3859.webp"
+    }
+  },
+  {
+    "id": "adolescence-19",
+    "number": 39,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Social Norms",
+      "External Gaze"
+    ],
+    "themes": [
+      "Ambition",
+      "Independence",
+      "Relationships",
+      "Obedience"
+    ],
+    "text": {
+      "en": "If you’re this strong-willed, who will put up with you?",
+      "zh": "你这么要强，以后谁受得了你？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3856.webp",
+      "zh": "assets/adolescence-strips/IMG_3857.webp"
+    }
+  },
+  {
+    "id": "adolescence-20",
+    "number": 40,
+    "lifeStages": [
+      "Adolescence"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "School Expectations"
+    ],
+    "themes": [
+      "Education",
+      "Obedience",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Your only job right now is to study. Why are you thinking about anything else?",
+      "zh": "你现在的任务就是学习，想那么多干什么？"
+    },
+    "images": {
+      "en": "assets/adolescence-strips/IMG_3854.webp",
+      "zh": "assets/adolescence-strips/IMG_3855.webp"
+    }
+  },
+  {
+    "id": "womanhood-01",
+    "number": 41,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Work",
+      "Marriage",
+      "Ambition",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "What’s the point of a great career if you don’t get married?",
+      "zh": "工作再好，不结婚有什么用？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3933.webp",
+      "zh": "assets/womanhood-strips/IMG_3934.webp"
+    }
+  },
+  {
+    "id": "womanhood-02",
+    "number": 42,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms",
+      "Self-Expectations"
+    ],
+    "themes": [
+      "Relationships",
+      "Marriage",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Are your standards too high?",
+      "zh": "你是不是眼光太高了？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3931.webp",
+      "zh": "assets/womanhood-strips/IMG_3932.webp"
+    }
+  },
+  {
+    "id": "womanhood-03",
+    "number": 43,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Education",
+      "Marriage",
+      "Ambition"
+    ],
+    "text": {
+      "en": "Won’t it be harder to find a partner if you study so much?",
+      "zh": "你读这么多书，会不会更难找对象？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3929.webp",
+      "zh": "assets/womanhood-strips/IMG_3930.webp"
+    }
+  },
+  {
+    "id": "womanhood-04",
+    "number": 44,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Money",
+      "Independence",
+      "Marriage",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why buy your own home if you’re going to get married anyway?",
+      "zh": "一定要买自己的房子吗，以后不是要嫁人？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3928.webp",
+      "zh": "assets/womanhood-strips/IMG_3927.webp"
+    }
+  },
+  {
+    "id": "womanhood-05",
+    "number": 45,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Work",
+      "Independence",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why not find a stable job closer to home?",
+      "zh": "为什么不找一份离家近的稳定工作？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3924.webp",
+      "zh": "assets/womanhood-strips/IMG_3925.webp"
+    }
+  },
+  {
+    "id": "womanhood-06",
+    "number": 46,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Workplace Expectations",
+      "Social Norms"
+    ],
+    "themes": [
+      "Work",
+      "Marriage",
+      "Childbearing",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "What’s wrong with an interviewer asking when you’ll get married or have children?",
+      "zh": "面试时问你婚育计划，不是很正常吗？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3922.webp",
+      "zh": "assets/womanhood-strips/IMG_3923.webp"
+    }
+  },
+  {
+    "id": "womanhood-07",
+    "number": 47,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms",
+      "Workplace Expectations"
+    ],
+    "themes": [
+      "Work",
+      "Caregiving",
+      "Housework",
+      "Marriage"
+    ],
+    "text": {
+      "en": "If you’re this busy, how will you take care of a family?",
+      "zh": "你这么忙，怎么照顾家庭？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3920.webp",
+      "zh": "assets/womanhood-strips/IMG_3921.webp"
+    }
+  },
+  {
+    "id": "womanhood-08",
+    "number": 48,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Social Norms",
+      "External Gaze"
+    ],
+    "themes": [
+      "Money",
+      "Work",
+      "Marriage",
+      "Relationships"
+    ],
+    "text": {
+      "en": "Won’t he feel embarrassed if you earn more than he does?",
+      "zh": "你挣得比他多，不怕他没面子吗？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3918.webp",
+      "zh": "assets/womanhood-strips/IMG_3919.webp"
+    }
+  },
+  {
+    "id": "womanhood-09",
+    "number": 49,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Money",
+      "Marriage",
+      "Independence"
+    ],
+    "text": {
+      "en": "Now that you’re married, why keep talking about what’s yours and what’s his?",
+      "zh": "结了婚还分什么你的、他的？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3916.webp",
+      "zh": "assets/womanhood-strips/IMG_3917.webp"
+    }
+  },
+  {
+    "id": "womanhood-10",
+    "number": 50,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Marriage",
+      "Relationships",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why can’t you spend every Lunar New Year with your husband’s family?",
+      "zh": "过年为什么不能一直在男方家过？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3914.webp",
+      "zh": "assets/womanhood-strips/IMG_3915.webp"
+    }
+  },
+  {
+    "id": "womanhood-11",
+    "number": 51,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Childbearing",
+      "Motherhood",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Won’t you regret it later if you don’t have children?",
+      "zh": "不生孩子，你以后不会后悔吗？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3912.webp",
+      "zh": "assets/womanhood-strips/IMG_3913.webp"
+    }
+  },
+  {
+    "id": "womanhood-12",
+    "number": 52,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Childbearing",
+      "Motherhood",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "You’ve already had one. Why not have another?",
+      "zh": "都生了一个了，为什么不再生一个？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3910.webp",
+      "zh": "assets/womanhood-strips/IMG_3911.webp"
+    }
+  },
+  {
+    "id": "womanhood-13",
+    "number": 53,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Childbearing",
+      "Motherhood"
+    ],
+    "text": {
+      "en": "You’ve had a daughter. Aren’t you going to try for a son?",
+      "zh": "生了女儿，还不打算要个儿子吗？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3908.webp",
+      "zh": "assets/womanhood-strips/IMG_3909.webp"
+    }
+  },
+  {
+    "id": "womanhood-14",
+    "number": 54,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms",
+      "Workplace Expectations"
+    ],
+    "themes": [
+      "Motherhood",
+      "Caregiving",
+      "Work",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "How can you go back to work when your child is still so little?",
+      "zh": "孩子这么小，你怎么放心去上班？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3902.webp",
+      "zh": "assets/womanhood-strips/IMG_3903.webp"
+    }
+  },
+  {
+    "id": "womanhood-15",
+    "number": 55,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Workplace Expectations"
+    ],
+    "themes": [
+      "Work",
+      "Motherhood",
+      "Caregiving"
+    ],
+    "text": {
+      "en": "Why are you taking time off for your child again?",
+      "zh": "你怎么又为了孩子请假？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3900.webp",
+      "zh": "assets/womanhood-strips/IMG_3901.webp"
+    }
+  },
+  {
+    "id": "womanhood-16",
+    "number": 56,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Motherhood",
+      "Caregiving",
+      "Housework",
+      "Relationships"
+    ],
+    "text": {
+      "en": "He even helps you look after the children. What more do you want?",
+      "zh": "他都帮你带孩子了，你还有什么不满意？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3898.webp",
+      "zh": "assets/womanhood-strips/IMG_3899.webp"
+    }
+  },
+  {
+    "id": "womanhood-17",
+    "number": 57,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Housework",
+      "Caregiving"
+    ],
+    "text": {
+      "en": "What do you do all day if the house is this messy?",
+      "zh": "家里这么乱，你平时都在忙什么？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3896.webp",
+      "zh": "assets/womanhood-strips/IMG_3897.webp"
+    }
+  },
+  {
+    "id": "womanhood-18",
+    "number": 58,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Aging",
+      "Independence",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Your parents are getting older. How can you still put your own life first?",
+      "zh": "父母年纪大了，你怎么还只顾自己的生活？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3906.webp",
+      "zh": "assets/womanhood-strips/IMG_3907.webp"
+    }
+  },
+  {
+    "id": "womanhood-19",
+    "number": 59,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Marriage",
+      "Motherhood",
+      "Relationships",
+      "Personal Choice",
+      "Obedience"
+    ],
+    "text": {
+      "en": "Can’t you put up with it a little longer, for the children?",
+      "zh": "为了孩子，就不能再忍一忍吗？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3904.webp",
+      "zh": "assets/womanhood-strips/IMG_3905.webp"
+    }
+  },
+  {
+    "id": "womanhood-20",
+    "number": 60,
+    "lifeStages": [
+      "Adulthood"
+    ],
+    "pressure": [
+      "Social Norms",
+      "Self-Expectations"
+    ],
+    "themes": [
+      "Aging",
+      "Personal Choice",
+      "Independence",
+      "Ambition"
+    ],
+    "text": {
+      "en": "Isn’t it too late to start over at your age?",
+      "zh": "这个年纪重新开始，会不会太晚了？"
+    },
+    "images": {
+      "en": "assets/womanhood-strips/IMG_3894.webp",
+      "zh": "assets/womanhood-strips/IMG_3895.webp"
+    }
+  },
+  {
+    "id": "later-life-01",
+    "number": 61,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Social Norms",
+      "External Gaze"
+    ],
+    "themes": [
+      "Education",
+      "Ambition",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Isn’t it too late to start learning that now?",
+      "zh": "你现在才想去学，会不会太晚了？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4163.webp",
+      "zh": "assets/later-life-strips/IMG_4164.webp"
+    }
+  },
+  {
+    "id": "later-life-02",
+    "number": 62,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Social Norms",
+      "External Gaze"
+    ],
+    "themes": [
+      "Aging",
+      "Ambition",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "At your age, what more could you possibly want?",
+      "zh": "都这把年纪了，还有什么不知足的？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4165.webp",
+      "zh": "assets/later-life-strips/IMG_4166.webp"
+    }
+  },
+  {
+    "id": "later-life-03",
+    "number": 63,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Obedience",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "You’re getting older. Can’t you just keep your thoughts to yourself?",
+      "zh": "年纪大了，就不能少说两句吗？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4167.webp",
+      "zh": "assets/later-life-strips/IMG_4168.webp"
+    }
+  },
+  {
+    "id": "later-life-04",
+    "number": 64,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Education",
+      "Aging",
+      "Independence"
+    ],
+    "text": {
+      "en": "We’ve shown you how to use this phone so many times. Why haven’t you learnt?",
+      "zh": "这个手机教了这么多遍，你怎么还不会？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4169.webp",
+      "zh": "assets/later-life-strips/IMG_4170.webp"
+    }
+  },
+  {
+    "id": "later-life-05",
+    "number": 65,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Money",
+      "Motherhood",
+      "Independence",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why not save your pension for your children?",
+      "zh": "养老金为什么不留着给孩子？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4171.webp",
+      "zh": "assets/later-life-strips/IMG_4172.webp"
+    }
+  },
+  {
+    "id": "later-life-06",
+    "number": 66,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family"
+    ],
+    "themes": [
+      "Obedience",
+      "Independence",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "If you don’t understand these things, why do you have to decide for yourself?",
+      "zh": "这些事情你又不懂，为什么还要自己决定？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4173.webp",
+      "zh": "assets/later-life-strips/IMG_4174.webp"
+    }
+  },
+  {
+    "id": "later-life-07",
+    "number": 67,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Motherhood",
+      "Caregiving",
+      "Aging"
+    ],
+    "text": {
+      "en": "Shouldn’t you try to make things easier for your children?",
+      "zh": "你是不是应该少麻烦孩子一点？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4175.webp",
+      "zh": "assets/later-life-strips/IMG_4176.webp"
+    }
+  },
+  {
+    "id": "later-life-08",
+    "number": 68,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Obedience",
+      "Motherhood",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Can’t you put up with feeling a bit ill? Why worry your children?",
+      "zh": "不舒服就忍忍，何必让孩子担心？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4177.webp",
+      "zh": "assets/later-life-strips/IMG_4178.webp"
+    }
+  },
+  {
+    "id": "later-life-09",
+    "number": 69,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Relationships",
+      "Independence",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why move into a care home when you have family?",
+      "zh": "家里又不是没人，为什么要去养老院？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4179.webp",
+      "zh": "assets/later-life-strips/IMG_4180.webp"
+    }
+  },
+  {
+    "id": "later-life-10",
+    "number": 70,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Relationships",
+      "Independence",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Aren’t you lonely living alone? Why not move in with your children?",
+      "zh": "一个人住不孤单吗？为什么不搬去和孩子住？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4181.webp",
+      "zh": "assets/later-life-strips/IMG_4182.webp"
+    }
+  },
+  {
+    "id": "later-life-11",
+    "number": 71,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Marriage",
+      "Relationships",
+      "Motherhood",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Have you thought about your children before getting married again?",
+      "zh": "你再婚，有没有替子女想过？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4183.webp",
+      "zh": "assets/later-life-strips/IMG_4184.webp"
+    }
+  },
+  {
+    "id": "later-life-12",
+    "number": 72,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Appearance",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "Why don’t you dye your grey hair?",
+      "zh": "你怎么不把白头发染染？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4185.webp",
+      "zh": "assets/later-life-strips/IMG_4186.webp"
+    }
+  },
+  {
+    "id": "later-life-13",
+    "number": 73,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Appearance",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "You are a grandmother now. Who are you dressing up for?",
+      "zh": "都当奶奶了，还打扮给谁看？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4187.webp",
+      "zh": "assets/later-life-strips/IMG_4188.webp"
+    }
+  },
+  {
+    "id": "later-life-14",
+    "number": 74,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Appearance",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "At your age, why are you still wearing such bright colors?",
+      "zh": "这把年纪了，还穿得这么鲜艳？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4189.webp",
+      "zh": "assets/later-life-strips/IMG_4190.webp"
+    }
+  },
+  {
+    "id": "later-life-15",
+    "number": 75,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Motherhood",
+      "Obedience"
+    ],
+    "text": {
+      "en": "They’re your own grandchildren. What is there to complain about?",
+      "zh": "带自己的孙辈，有什么好抱怨的？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4191.webp",
+      "zh": "assets/later-life-strips/IMG_4192.webp"
+    }
+  },
+  {
+    "id": "later-life-16",
+    "number": 76,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Motherhood",
+      "Work",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "If you don’t look after the grandchildren, how will your children go to work?",
+      "zh": "你不帮忙带孙辈，孩子们怎么上班？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4193.webp",
+      "zh": "assets/later-life-strips/IMG_4194.webp"
+    }
+  },
+  {
+    "id": "later-life-17",
+    "number": 77,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Work",
+      "Independence",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "You’re retired now. Why are you still so busy doing your own things?",
+      "zh": "都退休了，怎么还忙自己的事？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4195.webp",
+      "zh": "assets/later-life-strips/IMG_4196.webp"
+    }
+  },
+  {
+    "id": "later-life-18",
+    "number": 78,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "External Gaze",
+      "Social Norms"
+    ],
+    "themes": [
+      "Relationships",
+      "Aging",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "At your age, why are you still thinking about romance?",
+      "zh": "这么大年纪了，还谈什么恋爱？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4198.webp",
+      "zh": "assets/later-life-strips/IMG_4197.webp"
+    }
+  },
+  {
+    "id": "later-life-19",
+    "number": 79,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Caregiving",
+      "Housework",
+      "Relationships",
+      "Independence",
+      "Personal Choice"
+    ],
+    "text": {
+      "en": "After spending your whole life caring for this family, why do you want to leave now",
+      "zh": "为家里操心了一辈子，现在怎么反而想走了？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4199.webp",
+      "zh": "assets/later-life-strips/IMG_4200.webp"
+    }
+  },
+  {
+    "id": "later-life-20",
+    "number": 80,
+    "lifeStages": [
+      "Later Life"
+    ],
+    "pressure": [
+      "Pressure from Family",
+      "Social Norms"
+    ],
+    "themes": [
+      "Independence",
+      "Personal Choice",
+      "Housework"
+    ],
+    "text": {
+      "en": "You’re home on your own. How can you possibly be busy?",
+      "zh": "你一个人在家，怎么还会没空？"
+    },
+    "images": {
+      "en": "assets/later-life-strips/IMG_4201.webp",
+      "zh": "assets/later-life-strips/IMG_4202.webp"
+    }
+  }
+]

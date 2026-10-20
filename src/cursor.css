@@ -1,0 +1,7 @@
+@media (hover:hover) and (pointer:fine){
+ html,body{cursor:url('../assets/cursors/default-mono.svg') 3 2,auto}
+ p,h1,h2,h3,h4,blockquote{cursor:text}
+ a,button,[role="button"],summary{cursor:url('../assets/cursors/link-mono.svg') 3 2,pointer!important}
+ :is(a,button,[role="button"],summary) *{cursor:inherit!important}
+ input,textarea,[contenteditable="true"]{cursor:text}
+}

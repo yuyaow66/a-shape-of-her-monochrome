@@ -1,0 +1,36 @@
+@import url('./print-surface.css?v=grain-2');
+html,body{background:var(--archive-charcoal);color:var(--archive-paper);color-scheme:dark}
+.figma-home>.home-landing{background-color:var(--archive-charcoal);background-image:var(--archive-screen),var(--archive-grain);background-size:3px 3px,180px 180px}
+.figma-home .home-header{border-color:var(--archive-graphite)}
+.figma-home .home-small-brand.site-brand{color:var(--archive-chalk)!important}
+.figma-home .home-about-short-label{color:var(--archive-ash)!important}
+.figma-home .home-about-trigger:is(:hover,:focus-visible) .home-about-short-label{color:var(--archive-white)}
+.figma-home .home-navigation .home-nav-link,
+.figma-home .home-navigation .home-nav-link p{color:var(--archive-paper)!important}
+.figma-home .home-navigation .home-nav-link p,
+.figma-home .home-film-menu>a{font-weight:700!important}
+.figma-home .home-nav-link[aria-controls]::after{color:var(--archive-silver)}
+.figma-home .home-navigation .home-nav-link:is(:hover,:focus-visible,[aria-expanded="true"]),
+.figma-home .home-navigation .home-nav-link:is(:hover,:focus-visible,[aria-expanded="true"]) p,
+.figma-home .home-nav-link:is(:hover,:focus-visible,[aria-expanded="true"])::after{color:var(--archive-white)!important}
+.figma-home .home-masthead,
+.figma-home .home-title{color:var(--archive-white)!important}
+.figma-home .home-small-ornament,
+.figma-home .home-title-ornament{filter:grayscale(1) brightness(1.3)}
+.figma-home .home-description{color:var(--archive-silver)!important}
+.figma-home .home-film-menu{background-color:transparent;border-color:var(--archive-graphite);box-shadow:none}
+.figma-home .home-film-menu>a{color:var(--archive-ash)!important}
+.figma-home .home-film-menu>a:is(:hover,:focus-visible){color:var(--archive-white)!important}
+#about.home-about{background-color:var(--archive-charcoal)!important;background-image:var(--archive-screen),var(--archive-grain);background-size:3px 3px,180px 180px;color:var(--archive-chalk)!important;color-scheme:dark}
+#about.home-about>.home-about-sheet{background-color:transparent!important;color:var(--archive-chalk)!important}
+.figma-home .home-about-heading{border-color:var(--archive-graphite);color:var(--archive-white)}
+#about .home-about-copy,
+#about .home-about-copy p{color:var(--archive-chalk)!important}
+.figma-home .home-about-close,
+.figma-home .home-about-close p{background-color:var(--archive-carbon)!important;color:var(--archive-white)!important}
+.figma-home .home-about-close:is(:hover,:focus-visible),
+.figma-home .home-about-close:is(:hover,:focus-visible) p{background-color:var(--archive-white)!important;color:var(--archive-ink)!important}
+.figma-home :is(a,button):focus-visible{outline-color:var(--archive-white)}
+.figma-home .home-about :focus-visible{outline-color:var(--archive-white)}
+::selection{background:var(--archive-white);color:var(--archive-carbon)}
+#about ::selection{background:var(--archive-white);color:var(--archive-carbon)}
