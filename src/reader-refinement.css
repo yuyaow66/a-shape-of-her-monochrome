@@ -1,0 +1,72 @@
+body.slate-site dialog.passage-reader{
+ position:fixed;
+ inset:0;
+ margin:auto;
+ height:fit-content!important;
+ min-height:0!important;
+ max-height:calc(100dvh - 40px)!important;
+ padding:22px 32px 26px!important;
+ overflow:hidden!important;
+}
+body.slate-site dialog.passage-reader[open]{
+ display:flex;
+ flex-direction:column;
+}
+body.slate-site dialog.passage-reader .passage-toolbar{
+ position:relative;
+ top:auto;
+ flex:0 0 auto;
+ align-items:flex-start;
+ gap:20px;
+ padding:0 0 14px!important;
+ margin:0 0 20px!important;
+}
+body.slate-site dialog.passage-reader .passage-toolbar nav{
+ flex:1;
+ min-width:0;
+}
+body.slate-site dialog.passage-reader .passage-back{
+ flex:none;
+}
+body.slate-site dialog.passage-reader .passage-text{
+ flex:0 1 auto;
+ min-height:0;
+ width:100%;
+ max-width:650px;
+ margin:0;
+ padding:0!important;
+ overflow-x:hidden!important;
+ overflow-y:auto!important;
+ overscroll-behavior:contain;
+ scrollbar-width:thin;
+ scrollbar-color:var(--ink) transparent;
+}
+body.slate-site dialog.passage-reader .passage-text h2{
+ margin:0 0 14px!important;
+}
+body.slate-site dialog.passage-reader .passage-row{
+ margin:0;
+}
+body.slate-site dialog.passage-reader .passage-row+.passage-row{
+ margin-top:16px;
+}
+body.slate-site dialog.passage-reader .passage-row p{
+ margin:0!important;
+}
+@media(max-width:560px){
+ body.slate-site dialog.passage-reader{
+  max-height:calc(100dvh - 24px)!important;
+  padding:18px 22px 22px!important;
+ }
+ body.slate-site dialog.passage-reader .passage-toolbar{
+  gap:12px;
+  padding-bottom:12px!important;
+  margin-bottom:16px!important;
+ }
+ body.slate-site dialog.passage-reader .passage-toolbar button{
+  min-height:36px;
+ }
+ body.slate-site dialog.passage-reader .passage-text h2{
+  font-size:21px!important;
+ }
+}

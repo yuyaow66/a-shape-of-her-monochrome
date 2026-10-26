@@ -1,0 +1,23 @@
+@font-face{font-family:Tinos;src:url('../assets/fonts/tinos-400.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Noto Serif JP';src:url('../assets/fonts/noto-serif-jp-400.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+:root{--font-text:Tinos,serif;--font-nav:Tinos,serif;--font-display:Tinos,serif;--font-meta:Tinos,serif;--font-body:'Noto Serif JP',serif;--archive-charcoal:#627b8c;--archive-carbon:#627b8c;--archive-paper:#2b2f33;--archive-chalk:#2b2f33;--archive-white:#2b2f33;--archive-ash:#2b2f33;--archive-silver:#2b2f33;--archive-ink:#2b2f33;--archive-graphite:rgba(43,47,51,.3);--archive-eye-light:#cbd6dd;--archive-eye-iris:#9fb6c5;--archive-eye-dark:#2b2f33;--archive-trail:#2b2f33;--archive-screen:none;--archive-grain:none;--highlight:#cbd6dd;--plum:#627b8c}
+html,body{color-scheme:light}
+.figma-home>.home-landing,#about.home-about{background-image:none!important}
+.figma-home .home-small-brand.site-brand{color:#050505!important}
+.figma-home .home-title,.figma-home .home-navigation .home-nav-link p,.figma-home .home-film-menu>a{font-weight:400!important}
+.figma-home .home-nav-link:is(:hover,:focus-visible,[aria-expanded=true]) p,.figma-home .home-navigation .home-nav-link:is(:hover,:focus-visible,[aria-expanded=true]) p,.figma-home a[href^="original-layout.html"]:hover p,.figma-home .home-film-menu>a:is(:hover,:focus-visible){color:#050505!important}
+.figma-home .home-description{color:#2b2f33!important}
+.figma-home .home-about-heading{font-weight:400}
+.figma-home .home-about-copy,.figma-home .home-about-copy p{font-family:'Noto Serif JP',serif!important}
+.figma-home .home-about-close,.figma-home .home-about-close p{background:#627b8c!important;color:#2b2f33!important}
+::selection,#about ::selection{background:#cbd6dd;color:#2b2f33}
+html body .figma-home .home-navigation .home-nav-link:is(:hover,:focus-visible,:active){background:#d4dce0!important;color:#2b2f33!important;box-shadow:none!important}
+html body .figma-home .home-navigation .home-nav-link:is(:hover,:focus-visible,:active) p,
+html body .figma-home .home-navigation .home-nav-link:is(:hover,:focus-visible,:active)::after{color:#2b2f33!important;text-decoration:none!important}
+html body .figma-home .home-film-menu>a:is(:hover,:focus-visible,:active){background:#d4dce0!important;color:#2b2f33!important;box-shadow:none!important;text-decoration:none!important}
+html body .figma-home .home-about-trigger:is(:hover,:focus-visible,:active) .home-about-short-label{color:#050505!important;text-decoration:underline;text-underline-offset:4px}
+html body .figma-home .home-about-close:is(:hover,:focus-visible,:active),
+html body .figma-home .home-about-close:is(:hover,:focus-visible,:active) p{background:#d4dce0!important;color:#2b2f33!important;box-shadow:none!important}
+html body .figma-home :is(.home-nav-link,.home-film-menu>a,.home-about-trigger,.home-about-close):focus-visible{outline:none!important;outline-offset:0!important}
+.figma-home .home-brandmark{display:none}
+.figma-home .home-header .home-about-trigger{margin-left:auto}

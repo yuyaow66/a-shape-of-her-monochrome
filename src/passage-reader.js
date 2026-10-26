@@ -29,9 +29,9 @@ export async function initPassageReader(){
  const peopleNav=document.createElement('nav');peopleNav.setAttribute('aria-label','Interviews');
  const back=button('Close ×','Close reader',()=>reader.close());back.className='passage-back';toolbar.append(peopleNav,back);
  const text=document.createElement('div');text.className='passage-text';text.tabIndex=0;text.setAttribute('role','region');text.setAttribute('aria-label','Passage text');reader.append(photo,toolbar,text);document.body.append(reader);
- let current,origin,showPov=false,fitKey='',fitFrame=0;
+ let current,origin,showPov=false;
  function openReader(entry){
-  origin=document.activeElement;current=entry;showPov=false;renderReader();reader.showModal();fitReader();back.focus();
+  origin=document.activeElement;current=entry;showPov=false;renderReader();reader.showModal();back.focus();
  }
  function renderReader(focusKey=null){
   const focusedTab=focusKey||(peopleNav.contains(document.activeElement)?document.activeElement.dataset.passagePerson:null);
@@ -50,7 +50,6 @@ export async function initPassageReader(){
   povTab.dataset.passagePerson='pov';
   povTab.setAttribute('aria-pressed',String(showPov));peopleNav.append(povTab);
   populateText(text,showPov?insight.paragraphs:current.paragraphs);text.scrollTop=0;
-  if(reader.open)fitReader();
   if(focusedTab)[...peopleNav.children].find(tab=>tab.dataset.passagePerson===focusedTab)?.focus({preventScroll:true});
  }
  function populateText(target,paragraphs){
@@ -61,20 +60,6 @@ export async function initPassageReader(){
    const paragraph=document.createElement('p');paragraph.textContent=passage;row.append(paragraph);target.append(row);
   }
  }
- function fitReader(force=false){
-  if(!reader.open)return;
-  const width=reader.getBoundingClientRect().width;
-  const key=current.key+'|'+showPov+'|'+current.heading+'|'+width+'|'+toolbar.getBoundingClientRect().height;
-  if(!force&&key===fitKey)return;
-  const probe=reader.cloneNode(true);probe.setAttribute('open','');probe.setAttribute('aria-hidden','true');probe.inert=true;
-  for(const [property,value]of Object.entries({'display':'block','position':'fixed','inset':'auto','left':'-10000px','top':'0','width':width+'px','max-width':'none','height':'auto','max-height':'none','min-height':'0','margin':'0','visibility':'hidden','pointer-events':'none','overflow':'hidden'}))probe.style.setProperty(property,value,'important');
-  document.body.append(probe);
-  const contentHeight=probe.getBoundingClientRect().height;
-  probe.remove();
-  reader.style.setProperty('--passage-fit-height',Math.min(640,Math.ceil(contentHeight))+'px');fitKey=key;
- }
- const scheduleFit=()=>{if(!fitFrame)fitFrame=requestAnimationFrame(()=>{fitFrame=0;fitReader(true);});};
- addEventListener('resize',scheduleFit);document.fonts.ready.then(scheduleFit);
  reader.addEventListener('close',()=>origin?.focus({preventScroll:true}));
  reader.addEventListener('keydown',event=>{
   if(event.target.tagName==='BUTTON'||showPov)return;
