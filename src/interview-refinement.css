@@ -19,11 +19,12 @@ body.slate-site .interview-refined .interview-conversation>[data-name^="Question
 body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>:nth-child(2){width:100%!important;max-width:100%!important;margin:0!important;padding:0!important;color:#2b2f33!important;font:400 15px/1.85 'Noto Serif JP',serif!important}
 body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>:nth-child(2) p{margin:0 0 14px!important;padding:0!important;color:inherit!important;font:400 15px/1.85 'Noto Serif JP',serif!important}
 body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>:nth-child(2) p:last-child{margin-bottom:0!important}
-body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open{display:flex!important;align-items:center;justify-content:flex-start;gap:10px;width:100%!important;min-height:44px!important;margin:14px 0 0!important;padding:10px 0!important;border:0!important;border-top:1px solid var(--rule)!important;background:transparent!important;color:var(--ink)!important;font:400 14px/1.5 Tinos,serif!important;text-align:left;text-decoration:none!important;box-shadow:none!important;outline:none!important;transition:color 160ms ease,border-color 160ms ease}
-body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open::after{content:none!important}
+body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open{display:grid!important;grid-template-columns:24px 22px max-content minmax(0,1fr);align-items:center;gap:10px;width:100%!important;min-height:44px!important;margin:14px 0 0!important;padding:10px 0!important;border:0!important;background:transparent!important;color:var(--ink)!important;font:400 14px/1.5 Tinos,serif!important;text-align:left;text-decoration:none!important;box-shadow:none!important;outline:none!important;transition:color 160ms ease}
+body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open::before,body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open::after{content:''!important;display:block;width:100%;height:1px;background:currentColor;opacity:.4;transition:opacity 160ms ease}
 body.slate-site .interview-refined .passage-open>svg{flex:none;width:22px;height:22px}
-body.slate-site .interview-refined .passage-open>.passage-open-label{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
-body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open:is(:hover,:focus-visible,[aria-expanded=true]){border-top-color:var(--paper)!important;color:var(--paper)!important}
+body.slate-site .interview-refined .passage-open>.passage-open-label{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;white-space:nowrap}
+body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open:is(:hover,:focus-visible,[aria-expanded=true]){color:var(--paper)!important}
+body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open:is(:hover,:focus-visible,[aria-expanded=true])::before,body.slate-site .interview-refined .interview-conversation>[data-name^="Question"]>.passage-open:is(:hover,:focus-visible,[aria-expanded=true])::after{opacity:1}
 body.slate-site .interview-refined .passage-open:focus-visible>.passage-open-label{text-decoration-thickness:2px}
 @container interview (max-width:750px){
  body.slate-site .interview-refined .slate-interview.interview-composition{grid-template-columns:minmax(0,1fr)!important;row-gap:28px!important;max-width:660px!important}
@@ -41,4 +42,4 @@ body.slate-site .interview-refined .passage-open:focus-visible>.passage-open-lab
 }
 
 body.slate-site .interview-refined .interview-composition>.interview-scroll-column{transform:translate3d(0,var(--interview-scroll-offset,0px),0)!important;will-change:transform}
-@media(prefers-reduced-motion:reduce){body.slate-site .interview-refined .passage-open,body.slate-site .interview-refined .passage-open>span{transition:none!important}}
+@media(prefers-reduced-motion:reduce){body.slate-site .interview-refined .passage-open,body.slate-site .interview-refined .passage-open>span,body.slate-site .interview-refined .passage-open::before,body.slate-site .interview-refined .passage-open::after{transition:none!important}}
