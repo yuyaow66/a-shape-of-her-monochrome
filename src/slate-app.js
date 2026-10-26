@@ -1,4 +1,4 @@
-import './original-layout.js?v=slate-base-1';
+import './original-layout.js?v=reading-view-1';
 import {aboutCopy} from './slate-copy.js';
 import {refineResearch} from './research-refinement.js';
 import {refineReality} from './reality-refinement.js';

@@ -165,7 +165,7 @@ import {initWords} from './words.js?v=filter-ready-10';
 initWords().catch(error=>console.error(error));
 import {alignTopbars,syncTopbars,getSectionNavigation} from './topbar.js?v=interface-review-5';
 alignTopbars();resize();document.fonts.ready.then(resize);
-import {initPassageReader} from './passage-reader.js?v=reader-adaptive-7';
+import {initPassageReader} from './passage-reader.js?v=reading-view-1';
 initPassageReader().catch(error=>console.error(error));
 
 import {initInterviewScroll} from './interview-scroll.js?v=progress-1';

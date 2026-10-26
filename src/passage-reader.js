@@ -19,11 +19,15 @@ export async function initPassageReader(){
    const image=screen.querySelector('img[src$=".png"],img[src$=".jpg"],img[src$=".webp"]');
    const entry={key,heading,paragraphs,photo:key==='film'?'':photo?.style.backgroundImage||(image?`url("${image.src}")`:''),label:people[key]||heading};
    entries.push(entry);
-   const open=button('↗','Read '+heading,()=>openReader(entry));
+   const open=button('','Open reading view: '+heading,()=>openReader(entry));
+   const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');icon.setAttribute('viewBox','0 0 24 24');icon.setAttribute('aria-hidden','true');icon.setAttribute('fill','none');icon.setAttribute('stroke','currentColor');icon.setAttribute('stroke-width','1.25');icon.setAttribute('stroke-linecap','round');icon.setAttribute('stroke-linejoin','round');
+   const pages=document.createElementNS('http://www.w3.org/2000/svg','path');pages.setAttribute('d','M12 5C9 3 5 3 2 4v14c3-1 7-1 10 1m0-14c3-2 7-2 10-1v14c-3-1-7-1-10 1V5');icon.append(pages);
+   const label=document.createElement('span');label.className='passage-open-label';label.textContent='Open reading view';open.append(icon,label);
+   open.setAttribute('aria-haspopup','dialog');open.setAttribute('aria-controls','passage-reader');open.setAttribute('aria-expanded','false');entry.trigger=open;
    open.className='passage-open';block.classList.add('passage-source');block.append(open);
   }
  }
- const reader=document.createElement('dialog');reader.className='passage-reader';reader.setAttribute('aria-label','Read passage');
+ const reader=document.createElement('dialog');reader.id='passage-reader';reader.className='passage-reader';reader.setAttribute('aria-label','Reading view');
  const photo=document.createElement('div');photo.className='passage-photo';photo.setAttribute('aria-hidden','true');
  const toolbar=document.createElement('div');toolbar.className='passage-toolbar';
  const peopleNav=document.createElement('nav');peopleNav.setAttribute('aria-label','Interviews');
@@ -31,7 +35,7 @@ export async function initPassageReader(){
  const text=document.createElement('div');text.className='passage-text';text.tabIndex=0;text.setAttribute('role','region');text.setAttribute('aria-label','Passage text');reader.append(photo,toolbar,text);document.body.append(reader);
  let current,origin,showPov=false;
  function openReader(entry){
-  origin=document.activeElement;current=entry;showPov=false;renderReader();reader.showModal();back.focus();
+  origin=entry.trigger;origin.setAttribute('aria-expanded','true');current=entry;showPov=false;renderReader();reader.showModal();back.focus();
  }
  function renderReader(focusKey=null){
   const focusedTab=focusKey||(peopleNav.contains(document.activeElement)?document.activeElement.dataset.passagePerson:null);
@@ -60,7 +64,7 @@ export async function initPassageReader(){
    const paragraph=document.createElement('p');paragraph.textContent=passage;row.append(paragraph);target.append(row);
   }
  }
- reader.addEventListener('close',()=>origin?.focus({preventScroll:true}));
+ reader.addEventListener('close',()=>{origin?.setAttribute('aria-expanded','false');origin?.focus({preventScroll:true});});
  reader.addEventListener('keydown',event=>{
   if(event.target.tagName==='BUTTON'||showPov)return;
   if(!['ArrowLeft','ArrowRight'].includes(event.key))return;
