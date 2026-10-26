@@ -28,6 +28,40 @@ body.slate-site dialog.passage-reader .passage-toolbar nav{
 body.slate-site dialog.passage-reader .passage-back{
  flex:none;
 }
+body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person]{
+ position:relative;
+ color:var(--ink)!important;
+ outline:none!important;
+ outline-offset:0;
+ text-decoration:none!important;
+ transition:color 160ms ease;
+}
+body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person]::after{
+ content:'';
+ position:absolute;
+ left:0;
+ bottom:3px;
+ width:100%;
+ height:1px;
+ background:currentColor;
+ pointer-events:none;
+ transform:scaleX(0);
+ transform-origin:left center;
+ transition:transform 160ms ease;
+}
+body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person]:is(:hover,:focus-visible,[aria-pressed=true]){
+ color:var(--paper)!important;
+}
+body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person]:hover::after{
+ transform:scaleX(.42);
+}
+body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person]:focus-visible::after{
+ height:2px;
+ transform:scaleX(.65);
+}
+body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person][aria-pressed=true]::after{
+ transform:scaleX(1);
+}
 body.slate-site dialog.passage-reader .passage-text{
  flex:0 1 auto;
  min-height:0;
@@ -40,6 +74,10 @@ body.slate-site dialog.passage-reader .passage-text{
  overscroll-behavior:contain;
  scrollbar-width:thin;
  scrollbar-color:var(--ink) transparent;
+}
+@media(prefers-reduced-motion:reduce){
+ body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person],
+ body.slate-site dialog.passage-reader .passage-toolbar nav>button[data-passage-person]::after{transition:none}
 }
 body.slate-site dialog.passage-reader .passage-text h2{
  margin:0 0 14px!important;
